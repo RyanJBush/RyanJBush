@@ -1,72 +1,96 @@
-# Hey, I'm Ryan 👋
+<div align="center">
 
-**Information Science & Business student @ University of Maryland** | Building full-stack AI/ML, cybersecurity, and data platforms for my portfolio.
+# Hi, I'm Ryan 👋
 
----
+### Information Science @ University of Maryland · Building at the intersection of AI, ML, and security
 
-## 🧠 About Me
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live%20Site-7aa8ff?style=for-the-badge&logo=vercel&logoColor=white)](https://www.perplexity.ai/computer/a/portfolio-index-ryan-bush-VUrIDQwUQcWLLK7UAj6yFA)
+[![Email](https://img.shields.io/badge/Email-ryan.o.bush%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ryan.o.bush@gmail.com)
+[![Location](https://img.shields.io/badge/Location-College%20Park%2C%20MD-555?style=for-the-badge&logo=googlemaps&logoColor=white)]()
 
-- 🎓 3rd-year student at UMD — Information Science major, Business minor
-- 🔭 Currently building production-style platforms in AI/ML, cybersecurity, and FinTech
-- 🌱 Actively learning: LLM pipelines, RAG architectures, threat detection, and MLOps
-- 💼 Targeting roles in **Data Science**, **AI/ML Engineering**, **Cybersecurity**, and **Full-Stack Development**
-- 📍 College Park, Maryland
+</div>
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Languages**
+**Languages**  
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat-square)
+![SQL](https://img.shields.io/badge/SQL-336791?logo=postgresql&logoColor=white&style=flat-square)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+**AI / ML**  
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=flat-square)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white&style=flat-square)
+![Transformers](https://img.shields.io/badge/Transformers-FFD43B?logo=huggingface&logoColor=black&style=flat-square)
+![SHAP](https://img.shields.io/badge/SHAP-2C7BB6?style=flat-square)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3A5E?style=flat-square)
 
-**Backend & APIs**
+**Backend**  
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=flat-square)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square)
+![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square)
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+**Frontend**  
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=flat-square)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white&style=flat-square)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white&style=flat-square)
 
-**Frontend**
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
-
-**AI / ML**
-
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
-![SHAP](https://img.shields.io/badge/SHAP-Explainability-blueviolet?style=flat)
-![FAISS](https://img.shields.io/badge/FAISS-Vector_Search-blue?style=flat)
+**Infra**  
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat-square)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white&style=flat-square)
+![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white&style=flat-square)
 
 ---
 
 ## 🚀 Featured Projects
 
-| Project | Domain | Key Technologies |
+> Nine production-style platforms across AI, ML, and security — each shipped end-to-end with FastAPI + React + PostgreSQL + Docker.  
+> **[→ View the live portfolio site](https://www.perplexity.ai/computer/a/portfolio-index-ryan-bush-VUrIDQwUQcWLLK7UAj6yFA)**
+
+### 🤖 AI & Agents
+
+| | Project | Description |
 |---|---|---|
-| [Real-Time Market Sentiment Platform](https://github.com/RyanJBush/Real-time-market-sentiment-and-trading-intelligence-platform) | FinTech / NLP | FinBERT, FastAPI, React, WebSockets, PostgreSQL |
-| [SOC Threat Detection Platform](https://github.com/RyanJBush/SOC-threat-detection-platform) | Cybersecurity / ML | scikit-learn, FastAPI, React, JWT RBAC, Tailwind |
-| [Healthcare Risk Prediction Platform](https://github.com/RyanJBush/Healthcare-risk-prediction-and-clinical-intelligence-platform) | Healthcare ML | SHAP, FastAPI, React, tiered ML scoring, PostgreSQL |
-| [Real-Time Fraud Detection Platform](https://github.com/RyanJBush/Real-time-fraud-detection-platform) | FinTech / ML | SHAP, FastAPI, React, rules + ML hybrid engine |
-| [Enterprise RAG Knowledge Platform](https://github.com/RyanJBush/Enterprise-RAG-knowledge-platform) | LLM / RAG | FAISS, BM25, FastAPI, React, multi-tenant RBAC |
-| [Autonomous Research Agent](https://github.com/RyanJBush/Autonomous-research-and-intelligence-agent) | AI Agents | LLM pipelines, FAISS memory, FastAPI, React |
-| [Multi-Agent Workflow Orchestration](https://github.com/RyanJBush/Multi-agent-workflow-orchestration-platform) | AI Agents | Agent orchestration, tool registry, FastAPI, React |
-| [Real-Time Anomaly Detection Platform](https://github.com/RyanJBush/Real-time-anomaly-detection-and-monitoring-platform) | MLOps / Monitoring | Isolation Forest, Z-score, FastAPI, React |
-| [Secure App & Vulnerability Scanner](https://github.com/RyanJBush/Secure-application-platform-and-vulnerability-scanner) | Cybersecurity | OWASP, SQLi/XSS detection, JWT, FastAPI, React |
+| **01** | **[Orion](https://github.com/RyanJBush/Multi-agent-workflow-orchestration-platform)** · [preview](https://www.perplexity.ai/computer/a/orion-preview-project-1-of-9-lCA5DWRgQoa4AN6VYPXAUQ) | Multi-agent workflow orchestration with DAG execution, retry / fallback, and per-step token-cost tracking |
+| **04** | **[Europa](https://github.com/RyanJBush/Autonomous-research-and-intelligence-agent)** · [preview](https://www.perplexity.ai/computer/a/europa-preview-project-4-of-9-lCA5DWRgQoa4AN6VYPXAUQ) | Autonomous research agent — query decomposition, web browsing, evidence synthesis with citation grounding |
+| **03** | **[Callisto](https://github.com/RyanJBush/Enterprise-RAG-knowledge-platform)** · [preview](https://www.perplexity.ai/computer/a/callisto-preview-project-3-of-lCA5DWRgQoa4AN6VYPXAUQ) | Enterprise RAG with hybrid retrieval, cross-encoder reranking, and tenant-isolated RBAC |
+
+### 📊 ML & Risk
+
+| | Project | Description |
+|---|---|---|
+| **06** | **[Cerberus](https://github.com/RyanJBush/Healthcare-risk-prediction-and-clinical-intelligence-platform)** · [preview](https://www.perplexity.ai/computer/a/cerberus-preview-project-6-of-lCA5DWRgQoa4AN6VYPXAUQ) | Healthcare risk prediction with SHAP-based explanations, drift monitoring, and a versioned model registry |
+| **09** | **[Meridian](https://github.com/RyanJBush/Real-time-fraud-detection-platform)** · [preview](https://www.perplexity.ai/computer/a/meridian-preview-project-9-of-lCA5DWRgQoa4AN6VYPXAUQ) | Real-time fraud detection — GradientBoosting + SHAP + rules hybrid with full case-lifecycle workflow |
+| **08** | **[Orbit](https://github.com/RyanJBush/Real-time-anomaly-detection-and-monitoring-platform)** · [preview](https://www.perplexity.ai/computer/a/orbit-preview-project-8-of-9-lCA5DWRgQoa4AN6VYPXAUQ) | Real-time anomaly detection blending Isolation Forest with z-score / rolling-window stats |
+| **02** | **[Atlas](https://github.com/RyanJBush/Real-time-market-sentiment-and-trading-intelligence-platform)** · [preview](https://www.perplexity.ai/computer/a/atlas-preview-project-2-of-9-lCA5DWRgQoa4AN6VYPXAUQ) | Market sentiment + trading intelligence — FinBERT scoring, backtesting, and Alpaca paper-trading |
+
+### 🔒 Security
+
+| | Project | Description |
+|---|---|---|
+| **05** | **[Mercury](https://github.com/RyanJBush/SOC-threat-detection-platform)** · [preview](https://www.perplexity.ai/computer/a/mercury-preview-project-5-of-9-lCA5DWRgQoa4AN6VYPXAUQ) | SOC threat detection with rule + Isolation Forest hybrid, mapped end-to-end to MITRE ATT&CK |
+| **07** | **[Obsidian](https://github.com/RyanJBush/Secure-application-platform-and-vulnerability-scanner)** · [preview](https://www.perplexity.ai/computer/a/obsidian-preview-project-7-of-lCA5DWRgQoa4AN6VYPXAUQ) | Vulnerability scanner with SQLi / XSS rule engine, severity scoring, and SARIF export |
 
 ---
 
-## 📊 GitHub Stats
+## 📈 GitHub Stats
 
-![Ryan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=RyanJBush&show_icons=true&theme=default&hide_border=true&count_private=true)
+<div align="center">
+
+![Ryan's GitHub stats](https://github-readme-stats.vercel.app/api?username=RyanJBush&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=RyanJBush&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
+
+</div>
 
 ---
 
-## 📫 Let's Connect
+## 📫 Get in touch
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/ryanjbush)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:ryanjbush@gmail.com)
+- **Portfolio:** [perplexity.ai/computer/a/portfolio-index-ryan-bush](https://www.perplexity.ai/computer/a/portfolio-index-ryan-bush-VUrIDQwUQcWLLK7UAj6yFA)
+- **Email:** [ryan.o.bush@gmail.com](mailto:ryan.o.bush@gmail.com)
+- **GitHub:** [@RyanJBush](https://github.com/RyanJBush)
+
+> Open to internships and full-time opportunities in **Data Science**, **AI/ML Engineering**, **FinTech**, and **Cybersecurity** — based in College Park, MD.
