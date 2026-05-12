@@ -47,7 +47,7 @@ I build production-like portfolio projects across AI, ML, and security, with an 
 
 ## Portfolio projects (9 total)
 
-**Portfolio index preview:** [Portfolio Preview](https://www.perplexity.ai/computer/a/portfolio-index-ryan-bush-VUrIDQwUQcWLLK7UAj6yFA)
+**Portfolio preview:** [Portfolio Preview](https://www.perplexity.ai/computer/a/portfolio-index-ryan-bush-VUrIDQwUQcWLLK7UAj6yFA)
 
 ### AI & Agents
 
