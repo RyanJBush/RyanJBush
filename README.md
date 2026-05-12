@@ -4,7 +4,7 @@
 
 ### Information Science @ University of Maryland · Building at the intersection of AI, ML, and security
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live%20Site-7aa8ff?style=for-the-badge&logo=vercel&logoColor=white)](https://www.perplexity.ai/computer/a/portfolio-index-ryan-bush-VUrIDQwUQcWLLK7UAj6yFA)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Preview-7aa8ff?style=for-the-badge&logo=vercel&logoColor=white)](https://www.perplexity.ai/computer/a/portfolio-index-ryan-bush-VUrIDQwUQcWLLK7UAj6yFA)
 [![Email](https://img.shields.io/badge/Email-ryan.o.bush%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ryan.o.bush@gmail.com)
 [![Location](https://img.shields.io/badge/Location-College%20Park%2C%20MD-555?style=for-the-badge&logo=googlemaps&logoColor=white)]()
 
@@ -47,32 +47,32 @@
 
 ## 🚀 Featured Projects
 
-> Nine production-style platforms across AI, ML, and security — each shipped end-to-end with FastAPI + React + PostgreSQL + Docker.  
-> **[→ View the live portfolio site](https://www.perplexity.ai/computer/a/portfolio-index-ryan-bush-VUrIDQwUQcWLLK7UAj6yFA)**
+> Nine student-built portfolio projects across AI, ML, and security — each scoped end-to-end with FastAPI + React + PostgreSQL + Docker.  
+> **[→ View the portfolio preview](https://www.perplexity.ai/computer/a/portfolio-index-ryan-bush-VUrIDQwUQcWLLK7UAj6yFA)**
 
 ### 🤖 AI & Agents
 
 | | Project | Description |
 |---|---|---|
 | **01** | **[Orion](https://github.com/RyanJBush/Multi-agent-workflow-orchestration-platform)** · [preview](https://www.perplexity.ai/computer/a/orion-preview-project-1-of-9-lCA5DWRgQoa4AN6VYPXAUQ) | Multi-agent workflow orchestration with DAG execution, retry / fallback, and per-step token-cost tracking |
-| **04** | **[Europa](https://github.com/RyanJBush/Autonomous-research-and-intelligence-agent)** · [preview](https://www.perplexity.ai/computer/a/europa-preview-project-4-of-9-lCA5DWRgQoa4AN6VYPXAUQ) | Autonomous research agent — query decomposition, web browsing, evidence synthesis with citation grounding |
-| **03** | **[Callisto](https://github.com/RyanJBush/Enterprise-RAG-knowledge-platform)** · [preview](https://www.perplexity.ai/computer/a/callisto-preview-project-3-of-lCA5DWRgQoa4AN6VYPXAUQ) | Enterprise RAG with hybrid retrieval, cross-encoder reranking, and tenant-isolated RBAC |
+| **03** | **[Callisto](https://github.com/RyanJBush/Enterprise-RAG-knowledge-platform)** · [preview](https://www.perplexity.ai/computer/a/callisto-preview-project-3-of-lCA5DWRgQoa4AN6VYPXAUQ) | RAG-style knowledge platform with hybrid retrieval, weighted reranking, and tenant-isolated RBAC |
+| **04** | **[Europa](https://github.com/RyanJBush/Autonomous-research-and-intelligence-agent)** · [preview](https://www.perplexity.ai/computer/a/europa-preview-project-4-of-9-lCA5DWRgQoa4AN6VYPXAUQ) | Research agent prototype — query decomposition, web browsing, evidence synthesis with citation grounding |
 
 ### 📊 ML & Risk
 
 | | Project | Description |
 |---|---|---|
-| **06** | **[Cerberus](https://github.com/RyanJBush/Healthcare-risk-prediction-and-clinical-intelligence-platform)** · [preview](https://www.perplexity.ai/computer/a/cerberus-preview-project-6-of-lCA5DWRgQoa4AN6VYPXAUQ) | Healthcare risk prediction with SHAP-based explanations, drift monitoring, and a versioned model registry |
-| **09** | **[Meridian](https://github.com/RyanJBush/Real-time-fraud-detection-platform)** · [preview](https://www.perplexity.ai/computer/a/meridian-preview-project-9-of-lCA5DWRgQoa4AN6VYPXAUQ) | Real-time fraud detection — GradientBoosting + SHAP + rules hybrid with full case-lifecycle workflow |
-| **08** | **[Orbit](https://github.com/RyanJBush/Real-time-anomaly-detection-and-monitoring-platform)** · [preview](https://www.perplexity.ai/computer/a/orbit-preview-project-8-of-9-lCA5DWRgQoa4AN6VYPXAUQ) | Real-time anomaly detection blending Isolation Forest with z-score / rolling-window stats |
-| **02** | **[Atlas](https://github.com/RyanJBush/Real-time-market-sentiment-and-trading-intelligence-platform)** · [preview](https://www.perplexity.ai/computer/a/atlas-preview-project-2-of-9-lCA5DWRgQoa4AN6VYPXAUQ) | Market sentiment + trading intelligence — FinBERT scoring, backtesting, and Alpaca paper-trading |
+| **02** | **[Atlas](https://github.com/RyanJBush/Real-time-market-sentiment-and-trading-intelligence-platform)** · [preview](https://www.perplexity.ai/computer/a/atlas-preview-project-2-of-9-lCA5DWRgQoa4AN6VYPXAUQ) | Market sentiment + trading intelligence prototype — FinBERT scoring, backtesting, and paper-trade style simulation |
+| **06** | **[Cerberus](https://github.com/RyanJBush/Healthcare-risk-prediction-and-clinical-intelligence-platform)** · [preview](https://www.perplexity.ai/computer/a/cerberus-preview-project-6-of-lCA5DWRgQoa4AN6VYPXAUQ) | Healthcare-style risk prediction prototype with SHAP-based explanations, drift monitoring, and a versioned model registry |
+| **08** | **[Orbit](https://github.com/RyanJBush/Real-time-anomaly-detection-and-monitoring-platform)** · [preview](https://www.perplexity.ai/computer/a/orbit-preview-project-8-of-9-lCA5DWRgQoa4AN6VYPXAUQ) | Streaming-style anomaly detection blending Isolation Forest with z-score / rolling-window stats |
+| **09** | **[Meridian](https://github.com/RyanJBush/Real-time-fraud-detection-platform)** · [preview](https://www.perplexity.ai/computer/a/meridian-preview-project-9-of-lCA5DWRgQoa4AN6VYPXAUQ) | Fraud detection prototype — GradientBoosting + SHAP + rules hybrid with full case-lifecycle workflow |
 
 ### 🔒 Security
 
 | | Project | Description |
 |---|---|---|
-| **05** | **[Mercury](https://github.com/RyanJBush/SOC-threat-detection-platform)** · [preview](https://www.perplexity.ai/computer/a/mercury-preview-project-5-of-9-lCA5DWRgQoa4AN6VYPXAUQ) | SOC threat detection with rule + Isolation Forest hybrid, mapped end-to-end to MITRE ATT&CK |
-| **07** | **[Obsidian](https://github.com/RyanJBush/Secure-application-platform-and-vulnerability-scanner)** · [preview](https://www.perplexity.ai/computer/a/obsidian-preview-project-7-of-lCA5DWRgQoa4AN6VYPXAUQ) | Vulnerability scanner with SQLi / XSS rule engine, severity scoring, and SARIF export |
+| **05** | **[Mercury](https://github.com/RyanJBush/SOC-threat-detection-platform)** · [preview](https://www.perplexity.ai/computer/a/mercury-preview-project-5-of-9-lCA5DWRgQoa4AN6VYPXAUQ) | SOC-style threat detection prototype — rule + Isolation Forest hybrid, mapped to MITRE ATT&CK techniques |
+| **07** | **[Obsidian](https://github.com/RyanJBush/Secure-application-platform-and-vulnerability-scanner)** · [preview](https://www.perplexity.ai/computer/a/obsidian-preview-project-7-of-lCA5DWRgQoa4AN6VYPXAUQ) | Educational vulnerability scanner with SQLi / XSS rule engine, severity scoring, and SARIF export |
 
 ---
 
