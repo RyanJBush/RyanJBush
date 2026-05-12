@@ -1,74 +1,75 @@
-# Ryan Bush — AI, Security, and Data Engineering Portfolio
+# Ryan Bush
 
-I’m Ryan Bush, a **University of Maryland student studying Information Science and Electrical Engineering with a Business minor.** I specialize in cybersecurity and data science, and I build portfolio projects that reflect how teams design and ship AI systems, security tools, and data platforms. This profile is organized so recruiters can quickly review what I’ve built and how I think about architecture, scope, and tradeoffs.
+I’m Ryan, a University of Maryland student studying Information Science and Electrical Engineering with a Business minor. I build hands-on projects in AI, data, and security, then document them so other students, recruiters, and technical teams can quickly understand the architecture, tradeoffs, and outcomes.
 
 ## Currently focused on
 
-- Building demo-scale AI and retrieval systems with clear architecture and reproducible workflows
-- Expanding security-focused projects around threat detection and vulnerability analysis patterns
-- Strengthening data engineering foundations across pipelines, model scoring, and explainability workflows
-- Improving recruiter-facing documentation, demo clarity, and portfolio consistency across all project repos
+- Designing reliable agent workflows that can be inspected step-by-step instead of treated like a black box.
+- Building practical RAG and research systems with better retrieval quality and cleaner evaluation loops.
+- Improving risk-model projects with clearer feature logic, explainability outputs, and review workflows.
+- Strengthening security projects around SOC triage, AppSec scanning, and structured reporting.
+- Keeping portfolio documentation consistent so each repo is easy to evaluate on its own.
 
 ## Core skills demonstrated
 
-### AI & ML
-- Python
-- scikit-learn
-- PyTorch
-- SHAP
-- Retrieval-augmented generation (RAG)
-- Multi-agent workflow patterns
+### AI / ML
+- Python, PyTorch, scikit-learn
+- RAG pipelines and retrieval evaluation
+- Agent orchestration and research automation
+- Explainability workflows (SHAP)
 
-### Data Engineering
-- PostgreSQL
-- SQLAlchemy
-- Data pipeline design
-- Feature and risk scoring workflows
-- Monitoring-oriented anomaly pipelines
+### Data
+- SQL, PostgreSQL, SQLAlchemy
+- Data pipeline design and scoring workflows
+- Monitoring-oriented anomaly detection
+- Risk analytics and review logic
 
 ### Security
-- SOC-style detection engineering
-- MITRE ATT&CK-aligned alert mapping
-- SQL injection and XSS detection logic
-- Vulnerability reporting with SARIF-style outputs
+- SOC detection and alert triage patterns
+- MITRE ATT&CK-aligned mapping
+- AppSec scanning patterns (SQLi/XSS)
+- Structured vulnerability reporting
 
 ### Full-Stack
-- FastAPI
-- React
-- TypeScript
+- FastAPI, React, TypeScript
 - REST API design
-- Docker and Docker Compose
+- Docker / Docker Compose
+- Project documentation and demo UX
 
 ## Best projects to review first
 
-1. **[Secure-application-platform-and-vulnerability-scanner](https://github.com/RyanJBush/Secure-application-platform-and-vulnerability-scanner) (Obsidian)** — Strong example of security-first thinking, including vulnerability detection logic, structured findings, and practical AppSec tradeoffs.
-2. **[Enterprise-RAG-knowledge-platform](https://github.com/RyanJBush/Enterprise-RAG-knowledge-platform) (Callisto)** — Good view into AI system design with retrieval, reranking, and multi-tenant access patterns in a portfolio demo context.
-3. **[Real-time-fraud-detection-platform](https://github.com/RyanJBush/Real-time-fraud-detection-platform) (Meridian)** — Useful for seeing risk analytics patterns that combine model scoring, explainability, and rule-based review steps.
+1. **[Enterprise-RAG-knowledge-platform](https://github.com/RyanJBush/Enterprise-RAG-knowledge-platform) — Callisto**  
+   A strong starting point for seeing how I approach AI system design: retrieval, ranking, and multi-tenant organization in one repo.
+
+2. **[Secure-application-platform-and-vulnerability-scanner](https://github.com/RyanJBush/Secure-application-platform-and-vulnerability-scanner) — Obsidian**  
+   Best security-focused example, with scanning logic, vulnerability categories, and reporting structure that mirrors real AppSec workflows.
+
+3. **[Real-time-fraud-detection-platform](https://github.com/RyanJBush/Real-time-fraud-detection-platform) — Meridian**  
+   Shows how I connect ML scoring with explainability and practical review steps, rather than treating prediction as the final output.
 
 ## Project index
 
 ### AI & Agents
-- **[Multi-agent-workflow-orchestration-platform](https://github.com/RyanJBush/Multi-agent-workflow-orchestration-platform)** — **Orion**: Orchestrates agent workflows with staged execution and reliability-oriented control flow.
-- **[Enterprise-RAG-knowledge-platform](https://github.com/RyanJBush/Enterprise-RAG-knowledge-platform)** — **Callisto**: Demonstrates a portfolio RAG platform with hybrid retrieval and ranking components.
-- **[Autonomous-research-and-intelligence-agent](https://github.com/RyanJBush/Autonomous-research-and-intelligence-agent)** — **Europa**: Implements a research-agent flow for decomposition, search, and grounded synthesis.
+- **[Multi-agent-workflow-orchestration-platform](https://github.com/RyanJBush/Multi-agent-workflow-orchestration-platform)** — **Orion**
+- **[Enterprise-RAG-knowledge-platform](https://github.com/RyanJBush/Enterprise-RAG-knowledge-platform)** — **Callisto**
+- **[Autonomous-research-and-intelligence-agent](https://github.com/RyanJBush/Autonomous-research-and-intelligence-agent)** — **Europa**
 
 ### ML & Risk
-- **[Real-time-market-sentiment-and-trading-intelligence-platform](https://github.com/RyanJBush/Real-time-market-sentiment-and-trading-intelligence-platform)** — **Atlas**: Applies NLP-style sentiment and signal generation for market-oriented analytics.
-- **[Healthcare-risk-prediction-and-clinical-intelligence-platform](https://github.com/RyanJBush/Healthcare-risk-prediction-and-clinical-intelligence-platform)** — **Cerberus**: Explores healthcare risk modeling over synthetic data with explainability-focused analysis.
-- **[Real-time-anomaly-detection-and-monitoring-platform](https://github.com/RyanJBush/Real-time-anomaly-detection-and-monitoring-platform)** — **Orbit**: Combines anomaly detection methods with monitoring-style pipeline design.
-- **[Real-time-fraud-detection-platform](https://github.com/RyanJBush/Real-time-fraud-detection-platform)** — **Meridian**: Simulates fraud risk scoring and review workflows for transaction intelligence.
+- **[Real-time-market-sentiment-and-trading-intelligence-platform](https://github.com/RyanJBush/Real-time-market-sentiment-and-trading-intelligence-platform)** — **Atlas**
+- **[Healthcare-risk-prediction-and-clinical-intelligence-platform](https://github.com/RyanJBush/Healthcare-risk-prediction-and-clinical-intelligence-platform)** — **Cerberus**
+- **[Real-time-anomaly-detection-and-monitoring-platform](https://github.com/RyanJBush/Real-time-anomaly-detection-and-monitoring-platform)** — **Orbit**
+- **[Real-time-fraud-detection-platform](https://github.com/RyanJBush/Real-time-fraud-detection-platform)** — **Meridian**
 
 ### Security
-- **[SOC-threat-detection-platform](https://github.com/RyanJBush/SOC-threat-detection-platform)** — **Mercury**: Simulates SOC alerting and triage workflows with ATT&CK-oriented mapping.
-- **[Secure-application-platform-and-vulnerability-scanner](https://github.com/RyanJBush/Secure-application-platform-and-vulnerability-scanner)** — **Obsidian**: Demonstrates application vulnerability scanning workflows and reporting structure.
+- **[SOC-threat-detection-platform](https://github.com/RyanJBush/SOC-threat-detection-platform)** — **Mercury**
+- **[Secure-application-platform-and-vulnerability-scanner](https://github.com/RyanJBush/Secure-application-platform-and-vulnerability-scanner)** — **Obsidian**
 
 ## Preview note
 
-Preview links on individual project pages are portfolio/UI previews — not necessarily live hosted apps.
+“Preview” links in this portfolio refer to UI or portfolio previews. They are not always live hosted production deployments.
 
 ## Contact / Recruiting
 
-- **GitHub:** [@RyanJBush](https://github.com/RyanJBush)
-- **LinkedIn:** Not listed in this repository README at this time
-- **Email:** [ryan.o.bush@gmail.com](mailto:ryan.o.bush@gmail.com)
-- Open to internship opportunities in data analytics, AI/ML engineering, and cybersecurity.
+- GitHub: [@RyanJBush](https://github.com/RyanJBush)
+- Email: [ryan.o.bush@gmail.com](mailto:ryan.o.bush@gmail.com)
+- Open to internship and early-career opportunities in AI/ML, data, and cybersecurity.
