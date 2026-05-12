@@ -3,135 +3,126 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ryan Bush | Portfolio Index</title>
-  <meta name="description" content="Portfolio index for Ryan Bush: AI systems, security tools, and data platform projects." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap">
+  <title>Ryan Bush | Portfolio Hub</title>
+  <meta name="description" content="Portfolio hub for Ryan Bush, a University of Maryland student building AI, risk modeling, and security projects." />
   <style>
     :root {
-      --bg: #FAF7F0;
-      --surface: #fffdf8;
-      --text: #162027;
-      --muted: #5f6c77;
-      --primary: #0D9488;
-      --primary-soft: rgba(13, 148, 136, 0.12);
-      --border: #ddd5c9;
-      --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+      --bg: #f4f8f9;
+      --surface: #ffffff;
+      --surface-alt: #eef7f7;
+      --text: #122026;
+      --muted: #4a5f68;
+      --primary: #0f8f87;
+      --primary-strong: #0b6f69;
+      --ring: rgba(15, 143, 135, 0.35);
+      --border: #d6e5e7;
+      --shadow: 0 8px 26px rgba(14, 31, 36, 0.08);
     }
+
     [data-theme="dark"] {
-      --bg: #0F172A;
-      --surface: #111d34;
-      --text: #e8eefb;
-      --muted: #9fb0cf;
-      --primary: #2dd4bf;
-      --primary-soft: rgba(45, 212, 191, 0.15);
-      --border: #24324d;
-      --shadow: 0 12px 32px rgba(0,0,0,0.35);
+      --bg: #0c161a;
+      --surface: #122127;
+      --surface-alt: #162b31;
+      --text: #e7f1f3;
+      --muted: #a2bbc1;
+      --primary: #2ec4b8;
+      --primary-strong: #35d0c2;
+      --ring: rgba(46, 196, 184, 0.35);
+      --border: #244047;
+      --shadow: 0 12px 28px rgba(0, 0, 0, 0.28);
     }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: 'Satoshi', system-ui, -apple-system, sans-serif;
-      background: radial-gradient(circle at top right, var(--primary-soft), transparent 42%), var(--bg);
-      color: var(--text);
-      line-height: 1.55;
-    }
-    .wrap { max-width: 1100px; margin: 0 auto; padding: 24px 18px 42px; }
+    body { margin: 0; font-family: Inter, Segoe UI, system-ui, sans-serif; background: radial-gradient(circle at 90% -10%, rgba(15,143,135,0.18), transparent 40%), var(--bg); color: var(--text); }
+    .container { width: min(1120px, 92vw); margin: 0 auto; padding: 24px 0 40px; }
     .topbar { display: flex; justify-content: flex-end; }
-    .toggle {
-      border: 1px solid var(--border); background: var(--surface); color: var(--text);
-      border-radius: 999px; padding: 8px 14px; cursor: pointer; font-weight: 600;
-    }
-    h1,h2,h3 { margin: 0; }
-    .hero { padding: 26px 0 18px; }
-    .kicker { color: var(--primary); font-weight: 700; letter-spacing: .04em; font-size: .8rem; text-transform: uppercase; }
-    .hero h1 { font-family: 'Instrument Serif', serif; font-size: clamp(2.2rem, 7vw, 4rem); line-height: 1.05; margin-top: 8px; }
-    .titleline { font-weight: 700; color: var(--muted); margin-top: 6px; }
-    .tagline { max-width: 760px; margin-top: 12px; font-size: 1.05rem; }
-    .section { margin-top: 28px; }
-    .section h2 { font-size: 1.4rem; margin-bottom: 14px; }
-    .group-label { color: var(--muted); font-weight: 700; margin: 18px 0 10px; font-size: .9rem; text-transform: uppercase; letter-spacing: .05em; }
-    .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
-    .card {
-      background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 16px;
-      box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 9px;
-    }
-    .card h3 { font-size: 1.05rem; }
-    .codename { color: var(--primary); font-weight: 700; }
-    .desc { color: var(--muted); font-size: .95rem; min-height: 58px; }
-    .tags { display: flex; flex-wrap: wrap; gap: 6px; }
-    .tag { font-size: .78rem; border: 1px solid var(--border); padding: 4px 8px; border-radius: 999px; background: var(--primary-soft); }
-    a { color: var(--primary); text-decoration: none; font-weight: 700; }
+    .toggle { border: 1px solid var(--border); background: var(--surface); color: var(--text); border-radius: 999px; padding: 0.55rem 0.9rem; cursor: pointer; font-weight: 600; }
+    .hero { padding: 1.4rem 0 1rem; }
+    h1 { margin: 0; font-size: clamp(2rem, 6vw, 3.2rem); }
+    .subtitle { margin: 0.45rem 0 0; color: var(--primary); font-weight: 700; }
+    .tagline { margin: 0.9rem 0 0; max-width: 70ch; color: var(--muted); }
+    .section { margin-top: 1.75rem; }
+    .section h2 { margin-bottom: 0.75rem; font-size: 1.35rem; }
+    .group { margin-top: 1.1rem; }
+    .group h3 { margin: 0 0 0.7rem; color: var(--muted); font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.06em; }
+    .cards { display: grid; grid-template-columns: repeat(12, 1fr); gap: 0.85rem; }
+    .card { grid-column: span 4; background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 0.95rem; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 0.55rem; }
+    .card:hover { border-color: var(--primary); box-shadow: 0 0 0 3px var(--ring); }
+    .card h4 { margin: 0; font-size: 1rem; }
+    .code { color: var(--primary); font-weight: 700; }
+    .desc { margin: 0; color: var(--muted); font-size: 0.93rem; }
+    .tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tag { border: 1px solid var(--border); background: var(--surface-alt); border-radius: 999px; padding: 0.18rem 0.52rem; font-size: 0.76rem; }
+    a { color: var(--primary); font-weight: 700; text-decoration: none; }
     a:hover { text-decoration: underline; }
-    .skills-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 12px; }
-    .skill-box { border: 1px solid var(--border); background: var(--surface); border-radius: 14px; padding: 14px; }
-    .skill-box h3 { font-size: 1rem; margin-bottom: 10px; }
-    .footer { border-top: 1px solid var(--border); margin-top: 28px; padding-top: 16px; color: var(--muted); font-size: .95rem; }
-    .icon { vertical-align: middle; margin-right: 6px; }
-    @media (max-width: 900px) { .grid { grid-template-columns: repeat(2, minmax(0,1fr)); } }
+    .skills { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.8rem; }
+    .skill-box { border: 1px solid var(--border); border-radius: 12px; background: var(--surface); padding: 0.85rem; }
+    .skill-box h3 { margin: 0 0 0.55rem; font-size: 1rem; }
+    footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.95rem; }
+    @media (max-width: 960px) { .card { grid-column: span 6; } }
     @media (max-width: 640px) {
-      .grid, .skills-grid { grid-template-columns: 1fr; }
-      .wrap { padding: 18px 14px 36px; }
-      .desc { min-height: 0; }
+      .card { grid-column: span 12; }
+      .skills { grid-template-columns: 1fr; }
     }
   </style>
 </head>
 <body>
-  <div class="wrap">
+  <main class="container">
     <div class="topbar">
-      <button class="toggle" id="themeToggle" aria-label="Toggle dark mode">Toggle theme</button>
+      <button class="toggle" id="themeToggle" aria-label="Toggle light and dark mode">Toggle theme</button>
     </div>
 
     <header class="hero">
-      <p class="kicker">Portfolio Index</p>
       <h1>Ryan Bush</h1>
-      <p class="titleline">University of Maryland · Information Science & Electrical Engineering</p>
-      <p class="tagline">I build AI systems, security tools, and data platform projects with practical architecture, clear scope, and recruiter-friendly documentation.</p>
+      <p class="subtitle">University of Maryland · Information Science &amp; Electrical Engineering</p>
+      <p class="tagline">A portfolio hub of nine projects across AI systems, risk modeling, and security engineering—built to show process, technical decisions, and implementation details.</p>
     </header>
 
-    <section class="section">
+    <section class="section" aria-label="Project index">
       <h2>Projects</h2>
 
-      <p class="group-label">AI & Agents</p>
-      <div class="grid">
-        <article class="card"><h3>Multi-agent-workflow-orchestration-platform</h3><div class="codename">Orion</div><p class="desc">Agent orchestration portfolio demo with staged execution, retries, and workflow control.</p><div class="tags"><span class="tag">AI</span><span class="tag">Agents</span><span class="tag">Python</span></div><a href="https://github.com/RyanJBush/Multi-agent-workflow-orchestration-platform" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
-        <article class="card"><h3>Enterprise-RAG-knowledge-platform</h3><div class="codename">Callisto</div><p class="desc">RAG knowledge platform demo with hybrid retrieval and relevance ranking patterns.</p><div class="tags"><span class="tag">AI</span><span class="tag">RAG</span><span class="tag">FastAPI</span></div><a href="https://github.com/RyanJBush/Enterprise-RAG-knowledge-platform" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
-        <article class="card"><h3>Autonomous-research-and-intelligence-agent</h3><div class="codename">Europa</div><p class="desc">Research agent workflow for query decomposition, source gathering, and synthesis.</p><div class="tags"><span class="tag">AI</span><span class="tag">Research</span><span class="tag">Automation</span></div><a href="https://github.com/RyanJBush/Autonomous-research-and-intelligence-agent" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
+      <div class="group">
+        <h3>AI &amp; Agents</h3>
+        <div class="cards">
+          <article class="card"><h4>Multi-agent-workflow-orchestration-platform</h4><div class="code">Codename: Orion</div><p class="desc">Orchestrates multi-step agent tasks with retries, guardrails, and stage-level visibility.</p><div class="tags"><span class="tag">AI</span><span class="tag">Agents</span><span class="tag">Python</span></div><a href="https://github.com/RyanJBush/Multi-agent-workflow-orchestration-platform" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
+          <article class="card"><h4>Enterprise-RAG-knowledge-platform</h4><div class="code">Codename: Callisto</div><p class="desc">Implements a retrieval and ranking pipeline for enterprise-style knowledge Q&amp;A.</p><div class="tags"><span class="tag">AI</span><span class="tag">RAG</span><span class="tag">FastAPI</span></div><a href="https://github.com/RyanJBush/Enterprise-RAG-knowledge-platform" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
+          <article class="card"><h4>Autonomous-research-and-intelligence-agent</h4><div class="code">Codename: Europa</div><p class="desc">Automates research workflows from question decomposition through evidence synthesis.</p><div class="tags"><span class="tag">AI</span><span class="tag">Research</span><span class="tag">Automation</span></div><a href="https://github.com/RyanJBush/Autonomous-research-and-intelligence-agent" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
+        </div>
       </div>
 
-      <p class="group-label">ML & Risk</p>
-      <div class="grid">
-        <article class="card"><h3>Real-time-market-sentiment-and-trading-intelligence-platform</h3><div class="codename">Atlas</div><p class="desc">Sentiment-driven analytics demo for market signal generation and interpretation.</p><div class="tags"><span class="tag">ML</span><span class="tag">NLP</span><span class="tag">Risk</span></div><a href="https://github.com/RyanJBush/Real-time-market-sentiment-and-trading-intelligence-platform" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
-        <article class="card"><h3>Healthcare-risk-prediction-and-clinical-intelligence-platform</h3><div class="codename">Cerberus</div><p class="desc">Healthcare risk modeling over synthetic data with explainability and monitoring concepts.</p><div class="tags"><span class="tag">ML</span><span class="tag">Healthcare</span><span class="tag">Explainability</span></div><a href="https://github.com/RyanJBush/Healthcare-risk-prediction-and-clinical-intelligence-platform" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
-        <article class="card"><h3>Real-time-anomaly-detection-and-monitoring-platform</h3><div class="codename">Orbit</div><p class="desc">Monitoring-focused anomaly detection system using statistical and ML approaches.</p><div class="tags"><span class="tag">Anomaly Detection</span><span class="tag">Streaming</span><span class="tag">Python</span></div><a href="https://github.com/RyanJBush/Real-time-anomaly-detection-and-monitoring-platform" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
-        <article class="card"><h3>Real-time-fraud-detection-platform</h3><div class="codename">Meridian</div><p class="desc">Fraud detection pipeline demo that combines scoring, explainability, and review logic.</p><div class="tags"><span class="tag">Fraud</span><span class="tag">ML</span><span class="tag">SHAP</span></div><a href="https://github.com/RyanJBush/Real-time-fraud-detection-platform" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
+      <div class="group">
+        <h3>ML &amp; Risk</h3>
+        <div class="cards">
+          <article class="card"><h4>Real-time-market-sentiment-and-trading-intelligence-platform</h4><div class="code">Codename: Atlas</div><p class="desc">Builds market signals from text sentiment and time-series context for trading analysis.</p><div class="tags"><span class="tag">ML</span><span class="tag">NLP</span><span class="tag">Risk</span></div><a href="https://github.com/RyanJBush/Real-time-market-sentiment-and-trading-intelligence-platform" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
+          <article class="card"><h4>Healthcare-risk-prediction-and-clinical-intelligence-platform</h4><div class="code">Codename: Cerberus</div><p class="desc">Models healthcare risk on synthetic records with attention to interpretability and drift.</p><div class="tags"><span class="tag">ML</span><span class="tag">Healthcare</span><span class="tag">Explainability</span></div><a href="https://github.com/RyanJBush/Healthcare-risk-prediction-and-clinical-intelligence-platform" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
+          <article class="card"><h4>Real-time-anomaly-detection-and-monitoring-platform</h4><div class="code">Codename: Orbit</div><p class="desc">Combines statistical baselines and model-based methods for anomaly alerting.</p><div class="tags"><span class="tag">Anomaly</span><span class="tag">Monitoring</span><span class="tag">Python</span></div><a href="https://github.com/RyanJBush/Real-time-anomaly-detection-and-monitoring-platform" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
+          <article class="card"><h4>Real-time-fraud-detection-platform</h4><div class="code">Codename: Meridian</div><p class="desc">Scores transaction risk and pairs model output with explainability and analyst review.</p><div class="tags"><span class="tag">Fraud</span><span class="tag">ML</span><span class="tag">SHAP</span></div><a href="https://github.com/RyanJBush/Real-time-fraud-detection-platform" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
+        </div>
       </div>
 
-      <p class="group-label">Security</p>
-      <div class="grid">
-        <article class="card"><h3>SOC-threat-detection-platform</h3><div class="codename">Mercury</div><p class="desc">SOC-style threat detection and triage workflow with ATT&amp;CK-aligned investigation patterns.</p><div class="tags"><span class="tag">Security</span><span class="tag">SOC</span><span class="tag">Detection</span></div><a href="https://github.com/RyanJBush/SOC-threat-detection-platform" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
-        <article class="card"><h3>Secure-application-platform-and-vulnerability-scanner</h3><div class="codename">Obsidian</div><p class="desc">Application security scanning demo with SQLi/XSS detection and structured reporting output.</p><div class="tags"><span class="tag">AppSec</span><span class="tag">Vulnerability Scanning</span><span class="tag">Python</span></div><a href="https://github.com/RyanJBush/Secure-application-platform-and-vulnerability-scanner" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>Skills</h2>
-      <div class="skills-grid">
-        <div class="skill-box"><h3>AI & ML</h3><div class="tags"><span class="tag">Python</span><span class="tag">scikit-learn</span><span class="tag">PyTorch</span><span class="tag">RAG</span><span class="tag">SHAP</span></div></div>
-        <div class="skill-box"><h3>Data Engineering</h3><div class="tags"><span class="tag">PostgreSQL</span><span class="tag">SQLAlchemy</span><span class="tag">Pipelines</span><span class="tag">Risk Scoring</span></div></div>
-        <div class="skill-box"><h3>Security</h3><div class="tags"><span class="tag">SOC Workflows</span><span class="tag">MITRE ATT&amp;CK</span><span class="tag">AppSec</span><span class="tag">SARIF-style Reporting</span></div></div>
-        <div class="skill-box"><h3>Full-Stack</h3><div class="tags"><span class="tag">FastAPI</span><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">Docker</span></div></div>
+      <div class="group">
+        <h3>Security</h3>
+        <div class="cards">
+          <article class="card"><h4>SOC-threat-detection-platform</h4><div class="code">Codename: Mercury</div><p class="desc">Simulates SOC triage from alert ingestion to ATT&amp;CK-aligned investigation paths.</p><div class="tags"><span class="tag">Security</span><span class="tag">SOC</span><span class="tag">Detection</span></div><a href="https://github.com/RyanJBush/SOC-threat-detection-platform" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
+          <article class="card"><h4>Secure-application-platform-and-vulnerability-scanner</h4><div class="code">Codename: Obsidian</div><p class="desc">Scans for common web vulnerabilities and outputs structured findings for review.</p><div class="tags"><span class="tag">AppSec</span><span class="tag">SQLi/XSS</span><span class="tag">Python</span></div><a href="https://github.com/RyanJBush/Secure-application-platform-and-vulnerability-scanner" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
+        </div>
       </div>
     </section>
 
-    <footer class="footer">
-      <p><a href="https://github.com/RyanJBush" target="_blank" rel="noopener noreferrer"><svg class="icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.1c-3.34.73-4.04-1.41-4.04-1.41-.55-1.39-1.34-1.75-1.34-1.75-1.09-.75.08-.73.08-.73 1.2.08 1.83 1.23 1.83 1.23 1.08 1.84 2.82 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.45 11.45 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.25 2.87.12 3.17.77.84 1.24 1.91 1.24 3.22 0 4.61-2.8 5.62-5.48 5.92.43.37.82 1.11.82 2.23v3.3c0 .32.21.69.82.58A12 12 0 0 0 12 .5Z"/></svg>GitHub: @RyanJBush</a></p>
-      <p>Preview links on individual project pages are portfolio/UI previews — not necessarily live hosted apps.</p>
-      <p>Open to internship opportunities in data analytics, AI/ML engineering, and cybersecurity.</p>
+    <section class="section" aria-label="Skills">
+      <h2>Skills by domain</h2>
+      <div class="skills">
+        <article class="skill-box"><h3>AI / ML</h3><div class="tags"><span class="tag">Python</span><span class="tag">PyTorch</span><span class="tag">scikit-learn</span><span class="tag">RAG</span><span class="tag">SHAP</span></div></article>
+        <article class="skill-box"><h3>Data</h3><div class="tags"><span class="tag">PostgreSQL</span><span class="tag">SQLAlchemy</span><span class="tag">Pipelines</span><span class="tag">Risk Scoring</span></div></article>
+        <article class="skill-box"><h3>Security</h3><div class="tags"><span class="tag">SOC Triage</span><span class="tag">MITRE ATT&amp;CK</span><span class="tag">AppSec</span><span class="tag">Reporting</span></div></article>
+        <article class="skill-box"><h3>Full-Stack</h3><div class="tags"><span class="tag">FastAPI</span><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">Docker</span></div></article>
+      </div>
+    </section>
+
+    <footer>
+      <p><a href="https://github.com/RyanJBush" target="_blank" rel="noopener noreferrer">GitHub: @RyanJBush</a> · <a href="mailto:ryan.o.bush@gmail.com">ryan.o.bush@gmail.com</a></p>
+      <p>Preview disclaimer: “Preview” links across these projects refer to portfolio or UI previews and may not point to live deployed apps.</p>
     </footer>
-  </div>
+  </main>
   <script>
     const root = document.documentElement;
     const button = document.getElementById('themeToggle');
@@ -140,9 +131,9 @@
       root.setAttribute('data-theme', 'dark');
     }
     button.addEventListener('click', () => {
-      const dark = root.getAttribute('data-theme') === 'dark';
-      root.setAttribute('data-theme', dark ? 'light' : 'dark');
-      localStorage.setItem('theme', dark ? 'light' : 'dark');
+      const isDark = root.getAttribute('data-theme') === 'dark';
+      root.setAttribute('data-theme', isDark ? 'light' : 'dark');
+      localStorage.setItem('theme', isDark ? 'light' : 'dark');
     });
   </script>
 </body>
