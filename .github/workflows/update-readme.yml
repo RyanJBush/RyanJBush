@@ -1,0 +1,96 @@
+name: Auto Update README
+
+on:
+  schedule:
+    - cron: '0 14 * * 1'
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update activity in README
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+
+            const owner = 'RyanJBush';
+            const repos = [
+              ['Callisto', 'Enterprise-RAG-knowledge-platform'],
+              ['Mercury', 'SOC-threat-detection-platform'],
+              ['Meridian', 'Real-time-fraud-detection-platform'],
+              ['Obsidian', 'Secure-application-platform-and-vulnerability-scanner'],
+              ['Orion', 'Multi-agent-workflow-orchestration-platform'],
+              ['Europa', 'Autonomous-research-and-intelligence-agent'],
+              ['Atlas', 'Real-time-market-sentiment-and-trading-intelligence-platform'],
+              ['Cerberus', 'Healthcare-risk-prediction-and-clinical-intelligence-platform'],
+              ['Orbit', 'Real-time-anomaly-detection-and-monitoring-platform']
+            ];
+
+            const details = [];
+            for (const [codename, repo] of repos) {
+              const response = await github.rest.repos.get({ owner, repo });
+              details.push({
+                codename,
+                repo,
+                pushedAt: response.data.pushed_at
+              });
+            }
+
+            details.sort((a, b) => new Date(b.pushedAt) - new Date(a.pushedAt));
+            const now = new Date().toISOString();
+
+            const recentLines = details.slice(0, 5).map((r) => {
+              const date = new Date(r.pushedAt).toISOString().slice(0, 10);
+              return `- **${r.codename}** ([${r.repo}](https://github.com/${owner}/${r.repo})) — last push: ${date}`;
+            });
+
+            const block = [
+              '## Portfolio Activity',
+              '',
+              `**Last Updated:** ${now}`,
+              '',
+              '### Recently Active',
+              ...recentLines,
+              '',
+              '<!-- README_ACTIVITY:START -->',
+              '<!-- README_ACTIVITY:END -->'
+            ].join('\n');
+
+            const file = 'README.md';
+            const readme = fs.readFileSync(file, 'utf8');
+            const markerStart = '<!-- README_ACTIVITY:START -->';
+            const markerEnd = '<!-- README_ACTIVITY:END -->';
+
+            let next;
+            if (readme.includes(markerStart) && readme.includes(markerEnd)) {
+              const rx = new RegExp(`${markerStart}[\\s\\S]*?${markerEnd}`);
+              const dynamic = [
+                markerStart,
+                `**Last Updated:** ${now}`,
+                '',
+                '### Recently Active',
+                ...recentLines,
+                markerEnd
+              ].join('\n');
+              next = readme.replace(rx, dynamic);
+            } else {
+              next = `${readme.trim()}\n\n${block}\n`;
+            }
+
+            fs.writeFileSync(file, next);
+
+      - name: Commit README changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore(readme): refresh project activity section'
+          file_pattern: README.md
