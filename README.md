@@ -71,5 +71,5 @@ I’m Ryan, a University of Maryland student studying Information Science and El
 ## Contact / Recruiting
 
 - GitHub: [@RyanJBush](https://github.com/RyanJBush)
-- Email: [ryan.o.bush@gmail.com](mailto:ryan.o.bush@gmail.com)
+- Email: [ryan.j.bush0@gmail.com](mailto:ryan.j.bush0@gmail.com)
 - Open to internship and early-career opportunities in AI/ML, data, and cybersecurity.
