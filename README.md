@@ -71,10 +71,14 @@ I’m Ryan, a University of Maryland student studying Information Science and El
 ## Portfolio Activity
 
 <!-- README_ACTIVITY:START -->
-**Last Updated:** managed by `.github/workflows/update-readme.yml`
+**Last Updated:** 2026-05-14T21:45:31.570Z
 
 ### Recently Active
-- This section auto-updates weekly and on push using the GitHub API.
+- **Atlas** ([Real-time-market-sentiment-and-trading-intelligence-platform](https://github.com/RyanJBush/Real-time-market-sentiment-and-trading-intelligence-platform)) — last push: 2026-05-12
+- **Orbit** ([Real-time-anomaly-detection-and-monitoring-platform](https://github.com/RyanJBush/Real-time-anomaly-detection-and-monitoring-platform)) — last push: 2026-05-12
+- **Obsidian** ([Secure-application-platform-and-vulnerability-scanner](https://github.com/RyanJBush/Secure-application-platform-and-vulnerability-scanner)) — last push: 2026-05-12
+- **Cerberus** ([Healthcare-risk-prediction-and-clinical-intelligence-platform](https://github.com/RyanJBush/Healthcare-risk-prediction-and-clinical-intelligence-platform)) — last push: 2026-05-12
+- **Europa** ([Autonomous-research-and-intelligence-agent](https://github.com/RyanJBush/Autonomous-research-and-intelligence-agent)) — last push: 2026-05-12
 <!-- README_ACTIVITY:END -->
 
 ## Preview note
