@@ -1,5 +1,9 @@
 # Ryan Bush
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-rjbush0-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rjbush0/)
+[![Live Portfolio](https://img.shields.io/badge/Live%20Portfolio-GitHub%20Pages-2ea44f)](https://ryanjbush.github.io/RyanJBush/)
+[![Deploy GitHub Pages](https://github.com/RyanJBush/RyanJBush/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/RyanJBush/RyanJBush/actions/workflows/deploy-pages.yml)
+
 I’m Ryan, a University of Maryland student studying Information Science and Electrical Engineering with a Business minor. I build hands-on projects in AI, data, and security, then document them so other students, recruiters, and technical teams can quickly understand the architecture, tradeoffs, and outcomes.
 
 ## Currently focused on
@@ -50,19 +54,28 @@ I’m Ryan, a University of Maryland student studying Information Science and El
 ## Project index
 
 ### AI & Agents
-- **[Multi-agent-workflow-orchestration-platform](https://github.com/RyanJBush/Multi-agent-workflow-orchestration-platform)** — **Orion**
 - **[Enterprise-RAG-knowledge-platform](https://github.com/RyanJBush/Enterprise-RAG-knowledge-platform)** — **Callisto**
+- **[Multi-agent-workflow-orchestration-platform](https://github.com/RyanJBush/Multi-agent-workflow-orchestration-platform)** — **Orion**
 - **[Autonomous-research-and-intelligence-agent](https://github.com/RyanJBush/Autonomous-research-and-intelligence-agent)** — **Europa**
 
 ### ML & Risk
+- **[Real-time-fraud-detection-platform](https://github.com/RyanJBush/Real-time-fraud-detection-platform)** — **Meridian**
 - **[Real-time-market-sentiment-and-trading-intelligence-platform](https://github.com/RyanJBush/Real-time-market-sentiment-and-trading-intelligence-platform)** — **Atlas**
 - **[Healthcare-risk-prediction-and-clinical-intelligence-platform](https://github.com/RyanJBush/Healthcare-risk-prediction-and-clinical-intelligence-platform)** — **Cerberus**
 - **[Real-time-anomaly-detection-and-monitoring-platform](https://github.com/RyanJBush/Real-time-anomaly-detection-and-monitoring-platform)** — **Orbit**
-- **[Real-time-fraud-detection-platform](https://github.com/RyanJBush/Real-time-fraud-detection-platform)** — **Meridian**
 
 ### Security
 - **[SOC-threat-detection-platform](https://github.com/RyanJBush/SOC-threat-detection-platform)** — **Mercury**
 - **[Secure-application-platform-and-vulnerability-scanner](https://github.com/RyanJBush/Secure-application-platform-and-vulnerability-scanner)** — **Obsidian**
+
+## Portfolio Activity
+
+<!-- README_ACTIVITY:START -->
+**Last Updated:** managed by `.github/workflows/update-readme.yml`
+
+### Recently Active
+- This section auto-updates weekly and on push using the GitHub API.
+<!-- README_ACTIVITY:END -->
 
 ## Preview note
 
@@ -71,5 +84,6 @@ I’m Ryan, a University of Maryland student studying Information Science and El
 ## Contact / Recruiting
 
 - GitHub: [@RyanJBush](https://github.com/RyanJBush)
+- LinkedIn: [rjbush0](https://www.linkedin.com/in/rjbush0/)
 - Email: [ryan.j.bush0@gmail.com](mailto:ryan.j.bush0@gmail.com)
 - Open to internship and early-career opportunities in AI/ML, data, and cybersecurity.
