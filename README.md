@@ -51,3 +51,17 @@ My repositories are organized as project-based case studies demonstrating practi
 
 - **LinkedIn:** [linkedin.com/in/rjbush0](https://www.linkedin.com/in/rjbush0/)
 - **GitHub:** [github.com/RyanJBush](https://github.com/RyanJBush)
+
+## Portfolio Activity
+
+**Last Updated:** 2026-05-22T22:12:25.608Z
+
+### Recently Active
+- **Atlas** ([Real-time-market-sentiment-and-trading-intelligence-platform](https://github.com/RyanJBush/Real-time-market-sentiment-and-trading-intelligence-platform)) — last push: 2026-05-22
+- **Obsidian** ([Secure-application-platform-and-vulnerability-scanner](https://github.com/RyanJBush/Secure-application-platform-and-vulnerability-scanner)) — last push: 2026-05-22
+- **Europa** ([Autonomous-research-and-intelligence-agent](https://github.com/RyanJBush/Autonomous-research-and-intelligence-agent)) — last push: 2026-05-22
+- **Meridian** ([Real-time-fraud-detection-platform](https://github.com/RyanJBush/Real-time-fraud-detection-platform)) — last push: 2026-05-22
+- **Mercury** ([SOC-threat-detection-platform](https://github.com/RyanJBush/SOC-threat-detection-platform)) — last push: 2026-05-22
+
+<!-- README_ACTIVITY:START -->
+<!-- README_ACTIVITY:END -->
