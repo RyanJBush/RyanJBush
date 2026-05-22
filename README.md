@@ -50,3 +50,17 @@
 
 - LinkedIn: [linkedin.com/in/your-link-here](https://www.linkedin.com/in/your-link-here)
 - GitHub: [github.com/RyanJBush](https://github.com/RyanJBush)
+
+## Portfolio Activity
+
+**Last Updated:** 2026-05-22T07:32:18.409Z
+
+### Recently Active
+- **Europa** ([Autonomous-research-and-intelligence-agent](https://github.com/RyanJBush/Autonomous-research-and-intelligence-agent)) — last push: 2026-05-14
+- **Orbit** ([Real-time-anomaly-detection-and-monitoring-platform](https://github.com/RyanJBush/Real-time-anomaly-detection-and-monitoring-platform)) — last push: 2026-05-14
+- **Obsidian** ([Secure-application-platform-and-vulnerability-scanner](https://github.com/RyanJBush/Secure-application-platform-and-vulnerability-scanner)) — last push: 2026-05-14
+- **Cerberus** ([Healthcare-risk-prediction-and-clinical-intelligence-platform](https://github.com/RyanJBush/Healthcare-risk-prediction-and-clinical-intelligence-platform)) — last push: 2026-05-14
+- **Atlas** ([Real-time-market-sentiment-and-trading-intelligence-platform](https://github.com/RyanJBush/Real-time-market-sentiment-and-trading-intelligence-platform)) — last push: 2026-05-14
+
+<!-- README_ACTIVITY:START -->
+<!-- README_ACTIVITY:END -->
