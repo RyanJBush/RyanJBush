@@ -1,57 +1,53 @@
 # Ryan J. Bush
 
-Information Science & Electrical Engineering student with a minor in Business at the University of Maryland, College Park, building a hands-on project portfolio.
+## Information Science Student | AI/ML, Data Science, Cybersecurity, Cloud & Software Engineering
 
-## Skills & Tech Stack
+I am an Information Science and Electrical Engineering student at the University of Maryland, College Park, with a minor in Business. I build portfolio projects that apply machine learning, security operations workflows, cloud-native architecture, and software engineering fundamentals to realistic problems. I am seeking internship and early-career opportunities where I can contribute, learn quickly, and grow through hands-on technical work.
 
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+## Core Interests
 
-### Frameworks
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-
-### Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-### Cloud / Infra
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=1A1A1A)
-![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
+- Applied AI/ML and retrieval-augmented systems
+- Data science and real-time analytics
+- Cybersecurity operations and detection engineering
+- Cloud infrastructure and observability
+- Backend and full-stack software engineering
 
 ## Featured Projects
 
-| AI & Agents | ML & Risk | Security |
-|---|---|---|
-| [Enterprise RAG Platform](https://github.com/RyanJBush/Enterprise-RAG-knowledge-platform)<br>Enterprise-style retrieval and ranking pipeline for knowledge-grounded Q&A workflows. | [Fraud Detection Platform](https://github.com/RyanJBush/Real-time-fraud-detection-platform)<br>Transaction risk scoring platform with explainability for analyst decision support. | [SOC Threat Detection Platform](https://github.com/RyanJBush/SOC-threat-detection-platform)<br>SOC simulation workflow from alert ingestion through ATT&CK-aligned triage. |
-| [Multi-Agent Orchestration Platform](https://github.com/RyanJBush/Multi-agent-workflow-orchestration-platform)<br>Multi-step orchestration engine for autonomous agents with retries and guardrails. | [Market Sentiment Intelligence Platform](https://github.com/RyanJBush/Real-time-market-sentiment-and-trading-intelligence-platform)<br>Market intelligence system combining sentiment signals with time-series context. | [Secure App & Vulnerability Scanner](https://github.com/RyanJBush/Secure-application-platform-and-vulnerability-scanner)<br>Application security scanner for common web vulnerabilities with structured findings. |
-| [Autonomous Research Agent](https://github.com/RyanJBush/Autonomous-research-and-intelligence-agent)<br>Autonomous research assistant for decomposing questions and synthesizing evidence. | [Healthcare Risk Prediction Platform](https://github.com/RyanJBush/Healthcare-risk-prediction-and-clinical-intelligence-platform)<br>Healthcare risk modeling project focused on interpretability and monitoring. | [Anomaly Detection Monitoring Platform](https://github.com/RyanJBush/Real-time-anomaly-detection-and-monitoring-platform)<br>Anomaly detection and monitoring stack for operational signal quality and alerting. |
+- **[Enterprise RAG Knowledge Assistant](https://github.com/RyanJBush/Enterprise-RAG-knowledge-platform)**  
+  Enterprise-style retrieval and ranking workflow for knowledge-grounded question answering, with a focus on evaluation and response quality.
 
-## Currently Working On
+- **[SOC Threat Detection & Incident Response Platform](https://github.com/RyanJBush/SOC-threat-detection-platform)**  
+  Security operations simulation that covers alert ingestion, ATT&CK-aligned triage, and incident response workflows.
 
-- Expanding documentation and architecture writeups across all portfolio repositories.
-- Improving evaluation and benchmarking loops for agentic and RAG systems.
-- Strengthening deployment, CI, and observability patterns for production-style demos.
+- **[Real-Time Fraud Detection & Risk Scoring Platform](https://github.com/RyanJBush/Real-time-fraud-detection-platform)**  
+  Transaction risk scoring project using machine learning and explainability patterns to support analyst decision-making.
 
----
+- **[Real-Time Anomaly Detection & Observability Platform](https://github.com/RyanJBush/Real-time-anomaly-detection-and-monitoring-platform)**  
+  Monitoring and anomaly detection stack for operational signals, focused on alerting quality and system visibility.
 
-**Connect:** [LinkedIn](https://www.linkedin.com/in/rjbush0/) · [GitHub](https://github.com/RyanJBush)
+- **[AI Research & Competitive Intelligence Agent](https://github.com/RyanJBush/Autonomous-research-and-intelligence-agent)**  
+  Agent-based research workflow for decomposing questions, collecting evidence, and synthesizing structured insights.
 
-## Portfolio Activity
+## Technical Skills
 
-**Last Updated:** 2026-05-22T08:08:33.323Z
+- **Programming:** Python, JavaScript, HTML, CSS
+- **AI/ML & Data:** scikit-learn, retrieval workflows, model evaluation, risk scoring
+- **Software Engineering:** FastAPI, React, API design, testing, documentation
+- **Cybersecurity:** SOC workflows, threat triage, vulnerability scanning concepts
+- **Cloud & DevOps:** Docker, Git, GitHub Actions, Render, Railway
 
-### Recently Active
-- **Callisto** ([Enterprise-RAG-knowledge-platform](https://github.com/RyanJBush/Enterprise-RAG-knowledge-platform)) — last push: 2026-05-22
-- **Atlas** ([Real-time-market-sentiment-and-trading-intelligence-platform](https://github.com/RyanJBush/Real-time-market-sentiment-and-trading-intelligence-platform)) — last push: 2026-05-22
-- **Cerberus** ([Healthcare-risk-prediction-and-clinical-intelligence-platform](https://github.com/RyanJBush/Healthcare-risk-prediction-and-clinical-intelligence-platform)) — last push: 2026-05-22
-- **Mercury** ([SOC-threat-detection-platform](https://github.com/RyanJBush/SOC-threat-detection-platform)) — last push: 2026-05-22
-- **Obsidian** ([Secure-application-platform-and-vulnerability-scanner](https://github.com/RyanJBush/Secure-application-platform-and-vulnerability-scanner)) — last push: 2026-05-22
+## Currently Learning / Building
 
-<!-- README_ACTIVITY:START -->
-<!-- README_ACTIVITY:END -->
+- Improving benchmarking and evaluation for AI/ML and agentic systems
+- Expanding architecture and implementation documentation across projects
+- Strengthening CI, deployment, and observability patterns in portfolio builds
+
+## GitHub Portfolio Focus
+
+My repositories are organized as project-based case studies demonstrating practical implementation, documentation quality, and iterative improvement across AI/ML, security, cloud, and software engineering domains.
+
+## Contact Links
+
+- **LinkedIn:** [linkedin.com/in/rjbush0](https://www.linkedin.com/in/rjbush0/)
+- **GitHub:** [github.com/RyanJBush](https://github.com/RyanJBush)
