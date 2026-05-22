@@ -68,3 +68,17 @@ I am a University of Maryland student studying Information Science and Electrica
 
 - **LinkedIn:** [linkedin.com/in/rjbush0](https://www.linkedin.com/in/rjbush0/)
 - **GitHub:** [github.com/RyanJBush](https://github.com/RyanJBush)
+
+## Portfolio Activity
+
+**Last Updated:** 2026-05-22T22:25:12.415Z
+
+### Recently Active
+- **Orbit** ([Real-time-anomaly-detection-and-monitoring-platform](https://github.com/RyanJBush/Real-time-anomaly-detection-and-monitoring-platform)) — last push: 2026-05-22
+- **Callisto** ([Enterprise-RAG-knowledge-platform](https://github.com/RyanJBush/Enterprise-RAG-knowledge-platform)) — last push: 2026-05-22
+- **Mercury** ([SOC-threat-detection-platform](https://github.com/RyanJBush/SOC-threat-detection-platform)) — last push: 2026-05-22
+- **Meridian** ([Real-time-fraud-detection-platform](https://github.com/RyanJBush/Real-time-fraud-detection-platform)) — last push: 2026-05-22
+- **Cerberus** ([Healthcare-risk-prediction-and-clinical-intelligence-platform](https://github.com/RyanJBush/Healthcare-risk-prediction-and-clinical-intelligence-platform)) — last push: 2026-05-22
+
+<!-- README_ACTIVITY:START -->
+<!-- README_ACTIVITY:END -->
