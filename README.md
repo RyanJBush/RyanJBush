@@ -1,5 +1,9 @@
 # Ryan J. Bush
 
+[![CI](https://github.com/RyanJBush/RyanJBush/actions/workflows/ci.yml/badge.svg)](https://github.com/RyanJBush/RyanJBush/actions/workflows/ci.yml)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-rjbush0-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rjbush0/)
+[![Live Portfolio](https://img.shields.io/badge/Live%20Portfolio-GitHub%20Pages-2ea44f)](https://ryanjbush.github.io/RyanJBush/)
+[![Deploy GitHub Pages](https://github.com/RyanJBush/RyanJBush/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/RyanJBush/RyanJBush/actions/workflows/deploy-pages.yml)
 **Information Science & Electrical Engineering student with a minor in Business at the University of Maryalnd, building a hands-on project portfolio across AI, data, and security.**
 
 ---
