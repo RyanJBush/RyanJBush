@@ -41,3 +41,17 @@ Information Science & Electrical Engineering student with a minor in Business at
 ---
 
 **Connect:** [LinkedIn](https://www.linkedin.com/in/rjbush0/) · [GitHub](https://github.com/RyanJBush)
+
+## Portfolio Activity
+
+**Last Updated:** 2026-05-22T08:08:33.323Z
+
+### Recently Active
+- **Callisto** ([Enterprise-RAG-knowledge-platform](https://github.com/RyanJBush/Enterprise-RAG-knowledge-platform)) — last push: 2026-05-22
+- **Atlas** ([Real-time-market-sentiment-and-trading-intelligence-platform](https://github.com/RyanJBush/Real-time-market-sentiment-and-trading-intelligence-platform)) — last push: 2026-05-22
+- **Cerberus** ([Healthcare-risk-prediction-and-clinical-intelligence-platform](https://github.com/RyanJBush/Healthcare-risk-prediction-and-clinical-intelligence-platform)) — last push: 2026-05-22
+- **Mercury** ([SOC-threat-detection-platform](https://github.com/RyanJBush/SOC-threat-detection-platform)) — last push: 2026-05-22
+- **Obsidian** ([Secure-application-platform-and-vulnerability-scanner](https://github.com/RyanJBush/Secure-application-platform-and-vulnerability-scanner)) — last push: 2026-05-22
+
+<!-- README_ACTIVITY:START -->
+<!-- README_ACTIVITY:END -->
