@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ryan Bush | Portfolio Hub</title>
+  <meta name="description" content="Portfolio hub for Ryan Bush, a University of Maryland student building AI, risk modeling, and security projects." />
+  <style>
+    :root {
+      --bg: #f4f8f9;
+      --surface: #ffffff;
+      --surface-alt: #eef7f7;
+      --text: #122026;
+      --muted: #4a5f68;
+      --primary: #0f8f87;
+      --primary-strong: #0b6f69;
+      --ring: rgba(15, 143, 135, 0.35);
+      --border: #d6e5e7;
+      --shadow: 0 8px 26px rgba(14, 31, 36, 0.08);
+    }
+
+    [data-theme="dark"] {
+      --bg: #0c161a;
+      --surface: #122127;
+      --surface-alt: #162b31;
+      --text: #e7f1f3;
+      --muted: #a2bbc1;
+      --primary: #2ec4b8;
+      --primary-strong: #35d0c2;
+      --ring: rgba(46, 196, 184, 0.35);
+      --border: #244047;
+      --shadow: 0 12px 28px rgba(0, 0, 0, 0.28);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Inter, Segoe UI, system-ui, sans-serif; background: radial-gradient(circle at 90% -10%, rgba(15,143,135,0.18), transparent 40%), var(--bg); color: var(--text); }
+    .container { width: min(1120px, 92vw); margin: 0 auto; padding: 24px 0 40px; }
+    .topbar { display: flex; justify-content: flex-end; }
+    .toggle { border: 1px solid var(--border); background: var(--surface); color: var(--text); border-radius: 999px; padding: 0.55rem 0.9rem; cursor: pointer; font-weight: 600; }
+    .hero { padding: 1.4rem 0 1rem; }
+    h1 { margin: 0; font-size: clamp(2rem, 6vw, 3.2rem); }
+    .subtitle { margin: 0.45rem 0 0; color: var(--primary); font-weight: 700; }
+    .tagline { margin: 0.9rem 0 0; max-width: 70ch; color: var(--muted); }
+    .section { margin-top: 1.75rem; }
+    .section h2 { margin-bottom: 0.75rem; font-size: 1.35rem; }
+    .group { margin-top: 1.1rem; }
+    .group h3 { margin: 0 0 0.7rem; color: var(--muted); font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.06em; }
+    .cards { display: grid; grid-template-columns: repeat(12, 1fr); gap: 0.85rem; }
+    .card { grid-column: span 4; background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 0.95rem; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 0.55rem; }
+    .card:hover { border-color: var(--primary); box-shadow: 0 0 0 3px var(--ring); }
+    .card h4 { margin: 0; font-size: 1rem; }
+    .code { color: var(--primary); font-weight: 700; }
+    .desc { margin: 0; color: var(--muted); font-size: 0.93rem; }
+    .tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tag { border: 1px solid var(--border); background: var(--surface-alt); border-radius: 999px; padding: 0.18rem 0.52rem; font-size: 0.76rem; }
+    a { color: var(--primary); font-weight: 700; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .skills { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.8rem; }
+    .skill-box { border: 1px solid var(--border); border-radius: 12px; background: var(--surface); padding: 0.85rem; }
+    .skill-box h3 { margin: 0 0 0.55rem; font-size: 1rem; }
+    footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.95rem; }
+    @media (max-width: 960px) { .card { grid-column: span 6; } }
+    @media (max-width: 640px) {
+      .card { grid-column: span 12; }
+      .skills { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="topbar">
+      <button class="toggle" id="themeToggle" aria-label="Toggle light and dark mode">Toggle theme</button>
+    </div>
+
+    <header class="hero">
+      <h1>Ryan Bush</h1>
+      <p class="subtitle">University of Maryland · Information Science &amp; Electrical Engineering</p>
+      <p class="tagline">A portfolio hub of nine projects across AI systems, risk modeling, and security engineering—built to show process, technical decisions, and implementation details.</p>
+      <p><a href="https://www.linkedin.com/in/rjbush0/" target="_blank" rel="noopener noreferrer">LinkedIn</a> · <a href="https://ryanjbush.github.io/RyanJBush/" target="_blank" rel="noopener noreferrer">View Live Portfolio</a></p>
+    </header>
+
+    <section class="section" aria-label="Project index">
+      <h2>Projects</h2>
+
+      <div class="group">
+        <h3>AI &amp; Agents</h3>
+        <div class="cards">
+          <article class="card"><h4>Multi-agent-workflow-orchestration-platform</h4><div class="code">Codename: Orion</div><p class="desc">Orchestrates multi-step agent tasks with retries, guardrails, and stage-level visibility.</p><div class="tags"><span class="tag">AI</span><span class="tag">Agents</span><span class="tag">Python</span></div><a href="https://github.com/RyanJBush/Multi-agent-workflow-orchestration-platform" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
+          <article class="card"><h4>Enterprise-RAG-knowledge-platform</h4><div class="code">Codename: Callisto</div><p class="desc">Implements a retrieval and ranking pipeline for enterprise-style knowledge Q&amp;A.</p><div class="tags"><span class="tag">AI</span><span class="tag">RAG</span><span class="tag">FastAPI</span></div><a href="https://github.com/RyanJBush/Enterprise-RAG-knowledge-platform" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
+          <article class="card"><h4>Autonomous-research-and-intelligence-agent</h4><div class="code">Codename: Europa</div><p class="desc">Automates research workflows from question decomposition through evidence synthesis.</p><div class="tags"><span class="tag">AI</span><span class="tag">Research</span><span class="tag">Automation</span></div><a href="https://github.com/RyanJBush/Autonomous-research-and-intelligence-agent" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
+        </div>
+      </div>
+
+      <div class="group">
+        <h3>ML &amp; Risk</h3>
+        <div class="cards">
+          <article class="card"><h4>Real-time-market-sentiment-and-trading-intelligence-platform</h4><div class="code">Codename: Atlas</div><p class="desc">Builds market signals from text sentiment and time-series context for trading analysis.</p><div class="tags"><span class="tag">ML</span><span class="tag">NLP</span><span class="tag">Risk</span></div><a href="https://github.com/RyanJBush/Real-time-market-sentiment-and-trading-intelligence-platform" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
+          <article class="card"><h4>Healthcare-risk-prediction-and-clinical-intelligence-platform</h4><div class="code">Codename: Cerberus</div><p class="desc">Models healthcare risk on synthetic records with attention to interpretability and drift.</p><div class="tags"><span class="tag">ML</span><span class="tag">Healthcare</span><span class="tag">Explainability</span></div><a href="https://github.com/RyanJBush/Healthcare-risk-prediction-and-clinical-intelligence-platform" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
+          <article class="card"><h4>Real-time-anomaly-detection-and-monitoring-platform</h4><div class="code">Codename: Orbit</div><p class="desc">Combines statistical baselines and model-based methods for anomaly alerting.</p><div class="tags"><span class="tag">Anomaly</span><span class="tag">Monitoring</span><span class="tag">Python</span></div><a href="https://github.com/RyanJBush/Real-time-anomaly-detection-and-monitoring-platform" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
+          <article class="card"><h4>Real-time-fraud-detection-platform</h4><div class="code">Codename: Meridian</div><p class="desc">Scores transaction risk and pairs model output with explainability and analyst review.</p><div class="tags"><span class="tag">Fraud</span><span class="tag">ML</span><span class="tag">SHAP</span></div><a href="https://github.com/RyanJBush/Real-time-fraud-detection-platform" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
+        </div>
+      </div>
+
+      <div class="group">
+        <h3>Security</h3>
+        <div class="cards">
+          <article class="card"><h4>SOC-threat-detection-platform</h4><div class="code">Codename: Mercury</div><p class="desc">Simulates SOC triage from alert ingestion to ATT&amp;CK-aligned investigation paths.</p><div class="tags"><span class="tag">Security</span><span class="tag">SOC</span><span class="tag">Detection</span></div><a href="https://github.com/RyanJBush/SOC-threat-detection-platform" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
+          <article class="card"><h4>Secure-application-platform-and-vulnerability-scanner</h4><div class="code">Codename: Obsidian</div><p class="desc">Scans for common web vulnerabilities and outputs structured findings for review.</p><div class="tags"><span class="tag">AppSec</span><span class="tag">SQLi/XSS</span><span class="tag">Python</span></div><a href="https://github.com/RyanJBush/Secure-application-platform-and-vulnerability-scanner" target="_blank" rel="noopener noreferrer">View Repo →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Skills">
+      <h2>Skills by domain</h2>
+      <div class="skills">
+        <article class="skill-box"><h3>AI / ML</h3><div class="tags"><span class="tag">Python</span><span class="tag">PyTorch</span><span class="tag">scikit-learn</span><span class="tag">RAG</span><span class="tag">SHAP</span></div></article>
+        <article class="skill-box"><h3>Data</h3><div class="tags"><span class="tag">PostgreSQL</span><span class="tag">SQLAlchemy</span><span class="tag">Pipelines</span><span class="tag">Risk Scoring</span></div></article>
+        <article class="skill-box"><h3>Security</h3><div class="tags"><span class="tag">SOC Triage</span><span class="tag">MITRE ATT&amp;CK</span><span class="tag">AppSec</span><span class="tag">Reporting</span></div></article>
+        <article class="skill-box"><h3>Full-Stack</h3><div class="tags"><span class="tag">FastAPI</span><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">Docker</span></div></article>
+      </div>
+    </section>
+
+    <footer>
+      <p><a href="https://github.com/RyanJBush" target="_blank" rel="noopener noreferrer">GitHub: @RyanJBush</a> · <a href="mailto:ryan.o.bush@gmail.com">ryan.o.bush@gmail.com</a></p>
+      <p>Preview disclaimer: “Preview” links across these projects refer to portfolio or UI previews and may not point to live deployed apps.</p>
+    </footer>
+  </main>
+  <script>
+    const root = document.documentElement;
+    const button = document.getElementById('themeToggle');
+    const saved = localStorage.getItem('theme');
+    if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      root.setAttribute('data-theme', 'dark');
+    }
+    button.addEventListener('click', () => {
+      const isDark = root.getAttribute('data-theme') === 'dark';
+      root.setAttribute('data-theme', isDark ? 'light' : 'dark');
+      localStorage.setItem('theme', isDark ? 'light' : 'dark');
+    });
+  </script>
+</body>
+</html>
