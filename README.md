@@ -1,6 +1,6 @@
 # Ryan J. Bush
 
-## Information Science Student | AI/ML, Data Science, Cybersecurity, Cloud & Software Engineering
+## Information Science and Electrical Engineering Student | AI/ML, Data Science, Cybersecurity, Cloud & Software Engineering
 
 I am an Information Science and Electrical Engineering student at the University of Maryland, College Park, with a minor in Business. I build portfolio projects that apply machine learning, security operations workflows, cloud-native architecture, and software engineering fundamentals to realistic problems. I am seeking internship and early-career opportunities where I can contribute, learn quickly, and grow through hands-on technical work.
 
