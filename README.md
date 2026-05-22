@@ -64,4 +64,12 @@ My repositories are organized as project-based case studies demonstrating practi
 - **Mercury** ([SOC-threat-detection-platform](https://github.com/RyanJBush/SOC-threat-detection-platform)) — last push: 2026-05-22
 
 <!-- README_ACTIVITY:START -->
+**Last Updated:** 2026-05-22T22:13:53.127Z
+
+### Recently Active
+- **Europa** ([Autonomous-research-and-intelligence-agent](https://github.com/RyanJBush/Autonomous-research-and-intelligence-agent)) — last push: 2026-05-22
+- **Obsidian** ([Secure-application-platform-and-vulnerability-scanner](https://github.com/RyanJBush/Secure-application-platform-and-vulnerability-scanner)) — last push: 2026-05-22
+- **Atlas** ([Real-time-market-sentiment-and-trading-intelligence-platform](https://github.com/RyanJBush/Real-time-market-sentiment-and-trading-intelligence-platform)) — last push: 2026-05-22
+- **Meridian** ([Real-time-fraud-detection-platform](https://github.com/RyanJBush/Real-time-fraud-detection-platform)) — last push: 2026-05-22
+- **Mercury** ([SOC-threat-detection-platform](https://github.com/RyanJBush/SOC-threat-detection-platform)) — last push: 2026-05-22
 <!-- README_ACTIVITY:END -->
