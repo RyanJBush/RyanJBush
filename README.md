@@ -74,12 +74,12 @@ Nine end-to-end projects across AI engineering, cybersecurity, data science, clo
 - **Cerberus** ([Healthcare-risk-prediction-and-clinical-intelligence-platform](https://github.com/RyanJBush/Healthcare-risk-prediction-and-clinical-intelligence-platform)) — last push: 2026-05-22
 
 <!-- README_ACTIVITY:START -->
-**Last Updated:** 2026-05-22T22:34:49.630Z
+**Last Updated:** 2026-05-25T16:22:31.426Z
 
 ### Recently Active
-- **Orbit** ([Real-time-anomaly-detection-and-monitoring-platform](https://github.com/RyanJBush/Real-time-anomaly-detection-and-monitoring-platform)) — last push: 2026-05-22
-- **Callisto** ([Enterprise-RAG-knowledge-platform](https://github.com/RyanJBush/Enterprise-RAG-knowledge-platform)) — last push: 2026-05-22
-- **Mercury** ([SOC-threat-detection-platform](https://github.com/RyanJBush/SOC-threat-detection-platform)) — last push: 2026-05-22
+- **Europa** ([Autonomous-research-and-intelligence-agent](https://github.com/RyanJBush/Autonomous-research-and-intelligence-agent)) — last push: 2026-05-22
+- **Orion** ([Multi-agent-workflow-orchestration-platform](https://github.com/RyanJBush/Multi-agent-workflow-orchestration-platform)) — last push: 2026-05-22
 - **Meridian** ([Real-time-fraud-detection-platform](https://github.com/RyanJBush/Real-time-fraud-detection-platform)) — last push: 2026-05-22
-- **Cerberus** ([Healthcare-risk-prediction-and-clinical-intelligence-platform](https://github.com/RyanJBush/Healthcare-risk-prediction-and-clinical-intelligence-platform)) — last push: 2026-05-22
+- **Mercury** ([SOC-threat-detection-platform](https://github.com/RyanJBush/SOC-threat-detection-platform)) — last push: 2026-05-22
+- **Callisto** ([Enterprise-RAG-knowledge-platform](https://github.com/RyanJBush/Enterprise-RAG-knowledge-platform)) — last push: 2026-05-22
 <!-- README_ACTIVITY:END -->
