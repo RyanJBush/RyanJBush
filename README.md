@@ -1,6 +1,6 @@
 # Ryan Bush
 
-Selected projects in retrieval evaluation, agent workflow tooling, and demand forecasting. Each project links to a demo and the evidence behind its results.
+Selected projects in retrieval evaluation, agent workflow tooling, demand forecasting, and sensor anomaly detection. Each project links to a demo and the evidence behind its results.
 
 ### Retrieval Evaluation Harness
 
@@ -19,3 +19,9 @@ Built a deterministic Planner–Implementer–Reviewer workflow that applies a f
 Built a checksum-pinned EIA-930 backtest. A frozen ridge model reduced MAE by 25.3% against a 168-hour weekly baseline on 1,389 comparable hours in November–December 2024. The weekly baseline won on the October tuning block and on the ridge model's worst day, December 25.
 
 [Results and reproduction commands](https://github.com/RyanJBush/pjm-demand-forecast/blob/c0264db3950c5fdfb32d7d6418eb09a4761443f9/README.md#result-on-the-shared-scoring-set) · [December 25 failure-case chart](https://github.com/RyanJBush/pjm-demand-forecast/blob/c0264db3950c5fdfb32d7d6418eb09a4761443f9/docs/worst_day_2024-12-25.svg)
+
+### Smart Grid Sensor Anomaly Detection
+
+Built a reproducible voltage replay comparing fixed limits with a causal rolling median/MAD detector. On one held-out synthetic fixture, fixed limits detected 6 of 6 faults with 5 unmatched alerts. Rolling MAD detected 5 of 6 with 4 unmatched alerts and missed a sustained voltage shift.
+
+[Repository and demo](https://github.com/RyanJBush/smart-grid-sensor-anomaly-detection) · [Held-out report](https://github.com/RyanJBush/smart-grid-sensor-anomaly-detection/blob/e67ee00ec3031deac3ff59ea2ec23530ef69b1f6/results/heldout/heldout_report.md) · [Replay chart](https://github.com/RyanJBush/smart-grid-sensor-anomaly-detection/blob/e67ee00ec3031deac3ff59ea2ec23530ef69b1f6/results/heldout/heldout_chart.png) · [Passing CI run](https://github.com/RyanJBush/smart-grid-sensor-anomaly-detection/actions/runs/42674141699/attempts/2)
