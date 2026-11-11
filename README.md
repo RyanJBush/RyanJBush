@@ -1,6 +1,14 @@
 # Ryan Bush
 
-Selected projects in local analytics, retrieval evaluation, agent workflow tooling, demand forecasting, and sensor anomaly detection. Each project links to a demo and the evidence behind its results.
+Selected projects in LLM reliability, local analytics, retrieval evaluation, agent workflow tooling, demand forecasting, and sensor anomaly detection. Each project links to a demo and the evidence behind its results.
+
+### Self-Healing LLM Gateway
+
+Built a local text-generation gateway with bounded retries, approved fallback providers, and per-provider circuit breakers. A two-second deadline includes calls and retry waits; sanitized traces explain routing and recovery decisions.
+
+On the same seven-request deterministic failure schedule, the gateway completed 7/7 requests with 11 provider calls, compared with 2/7 and seven calls for a direct-primary baseline. These are stub results with simulated timings. All 382 tests and 31 acceptance assertions passed on Windows and Ubuntu with Python 3.11–3.13. Real LLM providers, macOS, and load beyond five concurrent requests remain unverified.
+
+[Repository](https://github.com/RyanJBush/self-healing-llm-gateway) · [Demo preview](https://github.com/RyanJBush/self-healing-llm-gateway/blob/4efd14e5bce54a1d66018bbb4641cc07e9ff9114/docs/media/acceptance-preview.png) · [Verified results](https://github.com/RyanJBush/self-healing-llm-gateway/blob/4efd14e5bce54a1d66018bbb4641cc07e9ff9114/evidence/verification.md) · [Passing CI run](https://github.com/RyanJBush/self-healing-llm-gateway/actions/runs/42944790109) · [Release v0.2.2](https://github.com/RyanJBush/self-healing-llm-gateway/releases/tag/v0.2.2)
 
 ### Enterprise Text-to-SQL Analytics Agent
 
