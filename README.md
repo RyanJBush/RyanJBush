@@ -1,6 +1,14 @@
 # Ryan Bush
 
-Selected projects in retrieval evaluation, agent workflow tooling, demand forecasting, and sensor anomaly detection. Each project links to a demo and the evidence behind its results.
+Selected projects in local analytics, retrieval evaluation, agent workflow tooling, demand forecasting, and sensor anomaly detection. Each project links to a demo and the evidence behind its results.
+
+### Enterprise Text-to-SQL Analytics Agent
+
+Built a local analytics assistant using Ollama and Qwen3 4B to propose SQL over a synthetic sales database. A restricted SQLite executor enforces approved reads, row limits, and a query work budget. The demo shows a correct joined revenue answer, a clarification question, and a blocked schema read.
+
+Seven local acceptance cases passed. The test suite recorded 182 passes and three optional Anthropic SDK skips. Earlier model mistakes are retained with the results.
+
+[Repository](https://github.com/RyanJBush/enterprise-text-to-sql-agent) · [51-second demo](https://github.com/RyanJBush/enterprise-text-to-sql-agent/blob/d9278eb98efcf2e73f3a07b0579efa34855ef1b6/docs/media/text2sql-demo.mp4) · [Verified results](https://github.com/RyanJBush/enterprise-text-to-sql-agent/blob/d9278eb98efcf2e73f3a07b0579efa34855ef1b6/evidence/results.md) · [Exact test output](https://github.com/RyanJBush/enterprise-text-to-sql-agent/blob/d9278eb98efcf2e73f3a07b0579efa34855ef1b6/evidence/test-output.txt)
 
 ### Retrieval Evaluation Harness
 
