@@ -1,6 +1,6 @@
 # Ryan Bush
 
-Selected projects in LLM reliability, local analytics, retrieval evaluation, agent workflow tooling, demand forecasting, and sensor anomaly detection. Each project links to a demo and the evidence behind its results.
+Selected projects in LLM reliability, local analytics, retrieval evaluation, agent workflow tooling, text-origin evaluation and content provenance, demand forecasting, and sensor anomaly detection. Each project links to a demo and the evidence behind its results.
 
 ### Self-Healing LLM Gateway
 
@@ -29,6 +29,14 @@ Built a reproducible comparison of BM25 and a pinned embedding model, with per-q
 Built a deterministic Planner–Implementer–Reviewer workflow that applies a fixed patch in a disposable Git repository, gates approval on an acceptance test, and stores verifiable execution traces in SQLite. The paired demo completed 3/3 runs per arm, with three memory hits when enabled and zero when disabled.
 
 [Recorded results](https://github.com/RyanJBush/swarmos/blob/f956d12f9bc65be3006e0d99f581ac0009a9040e/docs/media/demo-evidence.json) · [Passing CI run](https://github.com/RyanJBush/swarmos/actions/runs/42434894375) · [Captioned demo](https://github.com/RyanJBush/swarmos/blob/f956d12f9bc65be3006e0d99f581ac0009a9040e/docs/media/swarmos-demo.webm) · [Timeline screenshot](https://github.com/RyanJBush/swarmos/blob/f956d12f9bc65be3006e0d99f581ac0009a9040e/docs/media/timeline.png)
+
+### Litmus
+
+Built a local evidence workbench that reports text-origin signals, writing-pattern observations, and image Content Credentials (C2PA) as separate records, each with its reasons and limits. It does not assign an "AI percentage". Text origin uses a Binoculars-style score from pinned Qwen2.5-0.5B base and Instruct models on a local GPU, and the browser interface binds only to 127.0.0.1.
+
+On a frozen held-out subset of RAID (3,361 texts in 675 source groups), clean-text AUROC was 0.80358 (grouped 95% interval 0.776–0.829). At the development-selected threshold, it flagged 66.37% of machine texts with a 4.59% false-positive rate; homoglyph edits cut detection to 8.59%. The subset comes from RAID's train.csv, not the official test set. In a fresh clone, a read-only verifier reproduced the saved metrics and 752 model-free tests passed; GPU tests were not part of that check. Dependency advisories in the model stack are unresolved, so the release is not security-cleared.
+
+[Repository](https://github.com/RyanJBush/AI-Generated-Content-Detection-and-Authenticity-Analyzer) · [Interface screenshot](https://github.com/RyanJBush/AI-Generated-Content-Detection-and-Authenticity-Analyzer/blob/d7ec4b00b0bf658146de86b110937b013094fb9a/eval/results/readiness/desktop.png) · [Held-out results](https://github.com/RyanJBush/AI-Generated-Content-Detection-and-Authenticity-Analyzer/blob/d7ec4b00b0bf658146de86b110937b013094fb9a/README.md#held-out-evaluation-r1-g-scientific-results-independently-reviewed) · [Full metrics](https://github.com/RyanJBush/AI-Generated-Content-Detection-and-Authenticity-Analyzer/blob/d7ec4b00b0bf658146de86b110937b013094fb9a/eval/results/r1g/metrics.json) · [Security status](https://github.com/RyanJBush/AI-Generated-Content-Detection-and-Authenticity-Analyzer/blob/d7ec4b00b0bf658146de86b110937b013094fb9a/docs/RELEASE-READINESS.md)
 
 ### PJM Demand Forecasting
 
