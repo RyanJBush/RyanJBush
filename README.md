@@ -22,7 +22,7 @@ Seven local acceptance cases passed. The test suite recorded 182 passes and thre
 
 Built a reproducible comparison of BM25 and a pinned embedding model, with per-query relevance metrics, CPU latency exports, and a side-by-side viewer. On the bundled synthetic fixture, Recall@5 was 0.714 for BM25 and 1.000 for embeddings across seven scored queries.
 
-[Saved results](https://github.com/RyanJBush/Retrieval-Evaluation-Harness/blob/5daa6003131c1ce3e11a1673c976c24dac2c80c7/examples/demo/summary.csv) · [Passing CI run](https://github.com/RyanJBush/Retrieval-Evaluation-Harness/actions/runs/42416440729) · [Viewer screenshot](https://github.com/RyanJBush/Retrieval-Evaluation-Harness/blob/5daa6003131c1ce3e11a1673c976c24dac2c80c7/evidence/browser/after_desktop_q02_k3.png)
+[Repository](https://github.com/RyanJBush/Retrieval-Evaluation-Harness) · [Saved results](https://github.com/RyanJBush/Retrieval-Evaluation-Harness/blob/5daa6003131c1ce3e11a1673c976c24dac2c80c7/examples/demo/summary.csv) · [Passing CI run](https://github.com/RyanJBush/Retrieval-Evaluation-Harness/actions/runs/42416440729) · [Viewer screenshot](https://github.com/RyanJBush/Retrieval-Evaluation-Harness/blob/5daa6003131c1ce3e11a1673c976c24dac2c80c7/evidence/browser/after_desktop_q02_k3.png)
 
 ### SwarmOS
 
