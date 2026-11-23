@@ -8,7 +8,7 @@ Built a local text-generation gateway with bounded retries, approved fallback pr
 
 On the same seven-request deterministic failure schedule, the gateway completed 7/7 requests with 11 provider calls, compared with 2/7 and seven calls for a direct-primary baseline. These are stub results with simulated timings. All 382 tests and 31 acceptance assertions passed on Windows and Ubuntu with Python 3.11–3.13. Real LLM providers, macOS, and load beyond five concurrent requests remain unverified.
 
-[Repository](https://github.com/RyanJBush/self-healing-llm-gateway) · [Demo preview](https://github.com/RyanJBush/self-healing-llm-gateway/blob/4efd14e5bce54a1d66018bbb4641cc07e9ff9114/docs/media/acceptance-preview.png) · [Verified results](https://github.com/RyanJBush/self-healing-llm-gateway/blob/4efd14e5bce54a1d66018bbb4641cc07e9ff9114/evidence/verification.md) · [Passing CI run](https://github.com/RyanJBush/self-healing-llm-gateway/actions/runs/42944790109) · [Release v0.2.2](https://github.com/RyanJBush/self-healing-llm-gateway/releases/tag/v0.2.2)
+[Repository](https://github.com/RyanJBush/Self-Healing-LLM-Gateway) · [Demo preview](https://github.com/RyanJBush/Self-Healing-LLM-Gateway/blob/4efd14e5bce54a1d66018bbb4641cc07e9ff9114/docs/media/acceptance-preview.png) · [Verified results](https://github.com/RyanJBush/Self-Healing-LLM-Gateway/blob/4efd14e5bce54a1d66018bbb4641cc07e9ff9114/evidence/verification.md) · [Passing CI run](https://github.com/RyanJBush/Self-Healing-LLM-Gateway/actions/runs/42944790109) · [Release v0.2.2](https://github.com/RyanJBush/Self-Healing-LLM-Gateway/releases/tag/v0.2.2)
 
 ### Enterprise Text-to-SQL Analytics Agent
 
@@ -16,7 +16,7 @@ Built a local analytics assistant using Ollama and Qwen3 4B to propose SQL over 
 
 Seven local acceptance cases passed. The test suite recorded 182 passes and three optional Anthropic SDK skips. Earlier model mistakes are retained with the results.
 
-[Repository](https://github.com/RyanJBush/enterprise-text-to-sql-agent) · [51-second demo](https://github.com/RyanJBush/enterprise-text-to-sql-agent/blob/d9278eb98efcf2e73f3a07b0579efa34855ef1b6/docs/media/text2sql-demo.mp4) · [Verified results](https://github.com/RyanJBush/enterprise-text-to-sql-agent/blob/d9278eb98efcf2e73f3a07b0579efa34855ef1b6/evidence/results.md) · [Exact test output](https://github.com/RyanJBush/enterprise-text-to-sql-agent/blob/d9278eb98efcf2e73f3a07b0579efa34855ef1b6/evidence/test-output.txt)
+[Repository](https://github.com/RyanJBush/Enterprise-Text-to-SQL-Analytics-Agent) · [51-second demo](https://github.com/RyanJBush/Enterprise-Text-to-SQL-Analytics-Agent/blob/d9278eb98efcf2e73f3a07b0579efa34855ef1b6/docs/media/text2sql-demo.mp4) · [Verified results](https://github.com/RyanJBush/Enterprise-Text-to-SQL-Analytics-Agent/blob/d9278eb98efcf2e73f3a07b0579efa34855ef1b6/evidence/results.md) · [Exact test output](https://github.com/RyanJBush/Enterprise-Text-to-SQL-Analytics-Agent/blob/d9278eb98efcf2e73f3a07b0579efa34855ef1b6/evidence/test-output.txt)
 
 ### Retrieval Evaluation Harness
 
@@ -28,7 +28,7 @@ Built a reproducible comparison of BM25 and a pinned embedding model, with per-q
 
 Built a deterministic Planner–Implementer–Reviewer workflow that applies a fixed patch in a disposable Git repository, gates approval on an acceptance test, and stores verifiable execution traces in SQLite. The paired demo completed 3/3 runs per arm, with three memory hits when enabled and zero when disabled.
 
-[Recorded results](https://github.com/RyanJBush/swarmos/blob/f956d12f9bc65be3006e0d99f581ac0009a9040e/docs/media/demo-evidence.json) · [Passing CI run](https://github.com/RyanJBush/swarmos/actions/runs/42434894375) · [Captioned demo](https://github.com/RyanJBush/swarmos/blob/f956d12f9bc65be3006e0d99f581ac0009a9040e/docs/media/swarmos-demo.webm) · [Timeline screenshot](https://github.com/RyanJBush/swarmos/blob/f956d12f9bc65be3006e0d99f581ac0009a9040e/docs/media/timeline.png)
+[Recorded results](https://github.com/RyanJBush/Autonomous-Coding-Agent-with-MCP-and-Multi-Agent-Collaboration/blob/f956d12f9bc65be3006e0d99f581ac0009a9040e/docs/media/demo-evidence.json) · [Passing CI run](https://github.com/RyanJBush/Autonomous-Coding-Agent-with-MCP-and-Multi-Agent-Collaboration/actions/runs/42434894375) · [Captioned demo](https://github.com/RyanJBush/Autonomous-Coding-Agent-with-MCP-and-Multi-Agent-Collaboration/blob/f956d12f9bc65be3006e0d99f581ac0009a9040e/docs/media/swarmos-demo.webm) · [Timeline screenshot](https://github.com/RyanJBush/Autonomous-Coding-Agent-with-MCP-and-Multi-Agent-Collaboration/blob/f956d12f9bc65be3006e0d99f581ac0009a9040e/docs/media/timeline.png)
 
 ### Litmus
 
@@ -48,4 +48,4 @@ Built a checksum-pinned EIA-930 backtest. A frozen ridge model reduced MAE by 25
 
 Built a reproducible voltage replay comparing fixed limits with a causal rolling median/MAD detector. On one held-out synthetic fixture, fixed limits detected 6 of 6 faults with 5 unmatched alerts. Rolling MAD detected 5 of 6 with 4 unmatched alerts and missed a sustained voltage shift.
 
-[Repository and demo](https://github.com/RyanJBush/smart-grid-sensor-anomaly-detection) · [Held-out report](https://github.com/RyanJBush/smart-grid-sensor-anomaly-detection/blob/e67ee00ec3031deac3ff59ea2ec23530ef69b1f6/results/heldout/heldout_report.md) · [Replay chart](https://github.com/RyanJBush/smart-grid-sensor-anomaly-detection/blob/e67ee00ec3031deac3ff59ea2ec23530ef69b1f6/results/heldout/heldout_chart.png) · [Passing CI run](https://github.com/RyanJBush/smart-grid-sensor-anomaly-detection/actions/runs/42674141699/attempts/2)
+[Repository and demo](https://github.com/RyanJBush/Smart-Grid-Sensor-Anomaly-Detection) · [Held-out report](https://github.com/RyanJBush/Smart-Grid-Sensor-Anomaly-Detection/blob/e67ee00ec3031deac3ff59ea2ec23530ef69b1f6/results/heldout/heldout_report.md) · [Replay chart](https://github.com/RyanJBush/Smart-Grid-Sensor-Anomaly-Detection/blob/e67ee00ec3031deac3ff59ea2ec23530ef69b1f6/results/heldout/heldout_chart.png) · [Passing CI run](https://github.com/RyanJBush/Smart-Grid-Sensor-Anomaly-Detection/actions/runs/42674141699/attempts/2)
