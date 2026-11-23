@@ -38,11 +38,11 @@ On a frozen held-out subset of RAID (3,361 texts in 675 source groups), clean-te
 
 [Repository](https://github.com/RyanJBush/AI-Generated-Content-Detection-and-Authenticity-Analyzer) · [Interface screenshot](https://github.com/RyanJBush/AI-Generated-Content-Detection-and-Authenticity-Analyzer/blob/d7ec4b00b0bf658146de86b110937b013094fb9a/eval/results/readiness/desktop.png) · [Held-out results](https://github.com/RyanJBush/AI-Generated-Content-Detection-and-Authenticity-Analyzer/blob/d7ec4b00b0bf658146de86b110937b013094fb9a/README.md#held-out-evaluation-r1-g-scientific-results-independently-reviewed) · [Full metrics](https://github.com/RyanJBush/AI-Generated-Content-Detection-and-Authenticity-Analyzer/blob/d7ec4b00b0bf658146de86b110937b013094fb9a/eval/results/r1g/metrics.json) · [Security status](https://github.com/RyanJBush/AI-Generated-Content-Detection-and-Authenticity-Analyzer/blob/d7ec4b00b0bf658146de86b110937b013094fb9a/docs/RELEASE-READINESS.md)
 
-### PJM Demand Forecasting
+### PJM Energy Demand Forecasting
 
 Built a checksum-pinned EIA-930 backtest. A frozen ridge model reduced MAE by 25.3% against a 168-hour weekly baseline on 1,389 comparable hours in November–December 2024. The weekly baseline won on the October tuning block and on the ridge model's worst day, December 25.
 
-[Results and reproduction commands](https://github.com/RyanJBush/PJM-Energy-Demand-Forecasting/blob/c0264db3950c5fdfb32d7d6418eb09a4761443f9/README.md#result-on-the-shared-scoring-set) · [December 25 failure-case chart](https://github.com/RyanJBush/PJM-Energy-Demand-Forecasting/blob/c0264db3950c5fdfb32d7d6418eb09a4761443f9/docs/worst_day_2024-12-25.svg)
+[Repository](https://github.com/RyanJBush/PJM-Energy-Demand-Forecasting) · [Results and reproduction commands](https://github.com/RyanJBush/PJM-Energy-Demand-Forecasting/blob/c0264db3950c5fdfb32d7d6418eb09a4761443f9/README.md#result-on-the-shared-scoring-set) · [December 25 failure-case chart](https://github.com/RyanJBush/PJM-Energy-Demand-Forecasting/blob/c0264db3950c5fdfb32d7d6418eb09a4761443f9/docs/worst_day_2024-12-25.svg)
 
 ### Smart Grid Sensor Anomaly Detection
 
