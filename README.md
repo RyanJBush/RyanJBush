@@ -30,6 +30,14 @@ Built a deterministic Planner–Implementer–Reviewer workflow that applies a f
 
 [Recorded results](https://github.com/RyanJBush/Autonomous-Coding-Agent-with-MCP-and-Multi-Agent-Collaboration/blob/f956d12f9bc65be3006e0d99f581ac0009a9040e/docs/media/demo-evidence.json) · [Passing CI run](https://github.com/RyanJBush/Autonomous-Coding-Agent-with-MCP-and-Multi-Agent-Collaboration/actions/runs/42434894375) · [Captioned demo](https://github.com/RyanJBush/Autonomous-Coding-Agent-with-MCP-and-Multi-Agent-Collaboration/blob/f956d12f9bc65be3006e0d99f581ac0009a9040e/docs/media/swarmos-demo.webm) · [Timeline screenshot](https://github.com/RyanJBush/Autonomous-Coding-Agent-with-MCP-and-Multi-Agent-Collaboration/blob/f956d12f9bc65be3006e0d99f581ac0009a9040e/docs/media/timeline.png)
 
+### 3D Multi-Agent Trace Visualizer
+
+Built a local viewer that validates a multi-agent execution trace, replays it deterministically, and shows it as an accessible 2D event table or a Three.js agent graph. Both views share one replay controller and event inspector, so switching views keeps the replay position and selection. Trace files are read in the browser, and the built page blocks network requests (`connect-src 'none'`).
+
+All 265 tests passed in GitHub CI on the current commit. Recorded scripted Chromium checks with software WebGL passed 32/32 for the 2D view, 40/40 for the 3D view (including the no-WebGL fallback and context loss), and 24/24 for layout at 1280 px and 375 px. The bundled trace is synthetic. Real SwarmOS trace ingestion, screen readers, GPU rendering performance, and Firefox/Safari are untested, and no usability gain has been measured.
+
+[Repository](https://github.com/RyanJBush/3D-Multi-Agent-Swarm-Command-Centre) · [Passing CI run](https://github.com/RyanJBush/3D-Multi-Agent-Swarm-Command-Centre/actions/runs/44882351001) · [Synthetic trace](https://github.com/RyanJBush/3D-Multi-Agent-Swarm-Command-Centre/blob/5f8a05c16bfd42ea367e71d58362e4e6ab69806f/fixtures/synthetic-trace.json) · [Browser check record](https://github.com/RyanJBush/3D-Multi-Agent-Swarm-Command-Centre/blob/5f8a05c16bfd42ea367e71d58362e4e6ab69806f/README.md#commands) · [Known limitations](https://github.com/RyanJBush/3D-Multi-Agent-Swarm-Command-Centre/blob/5f8a05c16bfd42ea367e71d58362e4e6ab69806f/README.md#known-limitations)
+
 ### Litmus
 
 Built a local evidence workbench that reports text-origin signals, writing-pattern observations, and image Content Credentials (C2PA) as separate records, each with its reasons and limits. It does not assign an "AI percentage". Text origin uses a Binoculars-style score from pinned Qwen2.5-0.5B base and Instruct models on a local GPU, and the browser interface binds only to 127.0.0.1.
