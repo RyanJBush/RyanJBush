@@ -1,6 +1,6 @@
 # Ryan Bush
 
-Selected projects in LLM reliability, local analytics, retrieval evaluation, agent workflow tooling, text-origin evaluation and content provenance, demand forecasting, and sensor anomaly detection. Each project links to a demo and the evidence behind its results.
+Selected projects in LLM reliability, local analytics, retrieval evaluation, agent workflow tooling and tool-call authorization, text-origin evaluation and content provenance, demand forecasting, and sensor anomaly detection. Each project links to a demo and the evidence behind its results.
 
 ### Self-Healing LLM Gateway
 
@@ -37,6 +37,14 @@ Built a local viewer that validates a multi-agent execution trace, replays it de
 All 265 tests passed in GitHub CI on the current commit. Recorded scripted Chromium checks with software WebGL passed 32/32 for the 2D view, 40/40 for the 3D view (including the no-WebGL fallback and context loss), and 24/24 for layout at 1280 px and 375 px. The bundled trace is synthetic. Real SwarmOS trace ingestion, screen readers, GPU rendering performance, and Firefox/Safari are untested, and no usability gain has been measured.
 
 [Repository](https://github.com/RyanJBush/3D-Multi-Agent-Swarm-Command-Centre) · [Passing CI run](https://github.com/RyanJBush/3D-Multi-Agent-Swarm-Command-Centre/actions/runs/44882351001) · [Synthetic trace](https://github.com/RyanJBush/3D-Multi-Agent-Swarm-Command-Centre/blob/5f8a05c16bfd42ea367e71d58362e4e6ab69806f/fixtures/synthetic-trace.json) · [Browser check record](https://github.com/RyanJBush/3D-Multi-Agent-Swarm-Command-Centre/blob/5f8a05c16bfd42ea367e71d58362e4e6ab69806f/README.md#commands) · [Known limitations](https://github.com/RyanJBush/3D-Multi-Agent-Swarm-Command-Centre/blob/5f8a05c16bfd42ea367e71d58362e4e6ab69806f/README.md#known-limitations)
+
+### Prompt-Injection Guardrails
+
+Built a default-deny permission gate that checks each agent-proposed tool call against a fixed task policy: three allowed tools, exact argument fields, and one allowed path or test name per tool. Paths must resolve inside the workspace, and denied calls never reach the recording mock executor. The gate does not read prompt or issue text and uses no LLM, so it is an authorization layer, not a prompt-injection detector.
+
+In three scripted synthetic cases, the gate blocked 1/1 unauthorized calls (an injected read of a fake secret) and incorrectly blocked 0/9 authorized calls, including in a case that only quotes the injected text; 3/3 tasks completed. All 115 tests passed in GitHub CI on Windows and Ubuntu with Python 3.12 and 3.13. No model-driven runs or real tool runtimes have been tested.
+
+[Repository](https://github.com/RyanJBush/Prompt-Injection-Guardrails) · [Passing CI run](https://github.com/RyanJBush/Prompt-Injection-Guardrails/actions/runs/44890676079) · [Scripted cases and output](https://github.com/RyanJBush/Prompt-Injection-Guardrails/blob/140c2f66a721967de1deb932015f08077741c9e3/README.md#issue-text-vs-the-scripted-tool-proposal) · [Metrics definitions](https://github.com/RyanJBush/Prompt-Injection-Guardrails/blob/140c2f66a721967de1deb932015f08077741c9e3/README.md#metrics-and-what-completed-means) · [Known limitations](https://github.com/RyanJBush/Prompt-Injection-Guardrails/blob/140c2f66a721967de1deb932015f08077741c9e3/README.md#limits)
 
 ### Litmus
 
