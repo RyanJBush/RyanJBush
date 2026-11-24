@@ -1,6 +1,6 @@
 # Ryan Bush
 
-Selected projects in LLM reliability, local analytics, retrieval evaluation, agent workflow tooling and tool-call authorization, text-origin evaluation and content provenance, demand forecasting, and sensor anomaly detection. Each project links to a demo and the evidence behind its results.
+Selected projects in LLM reliability, local analytics, retrieval evaluation, agent workflow tooling and tool-call authorization, supervised code repair, text-origin evaluation and content provenance, demand forecasting, and sensor anomaly detection. Each project links to a demo and the evidence behind its results.
 
 ### Self-Healing LLM Gateway
 
@@ -45,6 +45,14 @@ Built a default-deny permission gate that checks each agent-proposed tool call a
 In three scripted synthetic cases, the gate blocked 1/1 unauthorized calls (an injected read of a fake secret) and incorrectly blocked 0/9 authorized calls, including in a case that only quotes the injected text; 3/3 tasks completed. All 115 tests passed in GitHub CI on Windows and Ubuntu with Python 3.12 and 3.13. No model-driven runs or real tool runtimes have been tested.
 
 [Repository](https://github.com/RyanJBush/Prompt-Injection-Guardrails) · [Passing CI run](https://github.com/RyanJBush/Prompt-Injection-Guardrails/actions/runs/44890676079) · [Scripted cases and output](https://github.com/RyanJBush/Prompt-Injection-Guardrails/blob/140c2f66a721967de1deb932015f08077741c9e3/README.md#issue-text-vs-the-scripted-tool-proposal) · [Metrics definitions](https://github.com/RyanJBush/Prompt-Injection-Guardrails/blob/140c2f66a721967de1deb932015f08077741c9e3/README.md#metrics-and-what-completed-means) · [Known limitations](https://github.com/RyanJBush/Prompt-Injection-Guardrails/blob/140c2f66a721967de1deb932015f08077741c9e3/README.md#limits)
+
+### Autonomous GitHub Issue Resolution Agent
+
+Built a supervised code-repair prototype for one synthetic GitHub-style Python issue. Each run makes one model request and validates the strict-JSON response. A narrow patch policy then limits the resulting diff to one allowlisted file within byte, hunk and line caps and checks it against a pinned base commit. Each run writes a hash-manifested review packet for a human reviewer. The tool never executes model output without an exact-hash operator approval, and it does not open or merge pull requests.
+
+A local `qwen3:4b` model proposed a one-line whitespace-normalization fix. Its prompt carried hints shaped by the trusted tests, and earlier development attempts failed, so this is a guided demonstration, not a benchmark. The agent run stopped before execution. A separate, manually supervised Docker run then saw the 2 expected baseline failures and 3/3 candidate tests passing. All 82 hand-written synthetic fixture cases matched offline and in Docker, and 574 tests passed in GitHub CI with Docker required. No real Anthropic API request has been made, and Docker is not verified as isolation for arbitrary model-generated code.
+
+[Repository](https://github.com/RyanJBush/Autonomous-GitHub-Issue-Resolution-Agent) · [Review packet](https://github.com/RyanJBush/Autonomous-GitHub-Issue-Resolution-Agent/blob/a16e6c79fd681030152b25b09e6877b01625fadf/docs/evidence/local-qwen3-011/review-packet.md) · [Local run record](https://github.com/RyanJBush/Autonomous-GitHub-Issue-Resolution-Agent/blob/a16e6c79fd681030152b25b09e6877b01625fadf/docs/LOCAL_RUN.md) · [Passing CI run](https://github.com/RyanJBush/Autonomous-GitHub-Issue-Resolution-Agent/actions/runs/45345108563) · [Known limitations](https://github.com/RyanJBush/Autonomous-GitHub-Issue-Resolution-Agent/blob/a16e6c79fd681030152b25b09e6877b01625fadf/docs/BOUNDARY.md#residual-risks)
 
 ### Litmus
 
